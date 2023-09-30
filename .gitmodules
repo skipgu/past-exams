@@ -1,0 +1,3 @@
+[submodule "exams/DIT182"]
+	path = exams/DIT182
+	url = https://github.com/ChalmersGU-data-structure-courses/past-exams.git
