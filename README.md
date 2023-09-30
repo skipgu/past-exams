@@ -20,6 +20,14 @@ Feel free to explore, contribute, and make the most of this repository as you st
 
 ### Year 1:
 
-[DIT043 - Object oriented programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043)
 
 [DIT023  - Mathematical Foundations for Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT023)
+
+[DIT033  - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033)
+
+[DIT043 - Object oriented programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043)
+
+[DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046)
+
+[DIT182 - Datastructures and Algorithms - Chalmers repository](https://github.com/ChalmersGU-data-structure-courses/past-exams/tree/898fde17e9b76906ed57fdbb963f4281a84e0e70)
+
