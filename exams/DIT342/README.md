@@ -3,7 +3,8 @@ Welcome to the DIT342 - Web Development, where we've compiled past exams and stu
 
 Here’s what we have so far:
 
-* 2020-01-7 Exam questions with answers and student answers from one source
+* 2019-04-24 Exam questions with answers and student answers from one source
+* 2020-01-07 Exam questions with answers and student answers from one source
 * 2021-10-25 Student answers from one source
 * 2022-01-04 Student answers from one source
 * 2022-08-15 Student answers from one source
