@@ -38,6 +38,7 @@ Feel free to explore, contribute, and make the most of this repository as you st
 
 [DIT345 - Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345)
 
+[DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 ***
 
