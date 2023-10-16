@@ -36,13 +36,13 @@ Click to expand the list of courses for each programme.
 
 - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342)
 - [DIT345 - Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345)
+- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 ***
 
 ### Year 3:
 
 - [DIT822 - Software Engineering for AI Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822)
-- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 </details>
 
