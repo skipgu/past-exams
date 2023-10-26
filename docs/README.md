@@ -1,6 +1,6 @@
 <h3 align="center">SKIP – Past Exams Repository</h3>
 <p align="center">
-  <img align="center" src="skip-past-exams-poster.png"/>
+  <img align="center" src="assets/skip-past-exams-poster.png"/>
 </p><br>
 
 Welcome to the official `GitHub` repository that gathers **examination materials** for programmes at the **IT Faculty** of [Gothenburg University](https://www.gu.se/).
