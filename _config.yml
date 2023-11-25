@@ -2,3 +2,4 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+exclude: ["_site", "exams", ".github", "scripts", "Gemfile", "Gemfile.lock"] 
