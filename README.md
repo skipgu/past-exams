@@ -1,6 +1,6 @@
 <h3 align="center">SKIP – Past Exams Repository</h3>
 <p align="center">
-  <img align="center" src="skip-past-exams-poster.png"/>
+  <img align="center" src="docs/assets/skip-past-exams-poster.png"/>
 </p><br>
 
 Welcome to the official `GitHub` repository that gathers **examination materials** for programmes at the **IT Faculty** of [Gothenburg University](https://www.gu.se/).
@@ -38,13 +38,13 @@ Click to expand the list of courses for each programme.
 - [DIT345 - Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345)
 - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348)
 - [DIT633 - Development of Embedded and Realtime systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633)
+- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 ***
 
 ### Year 3:
 
 - [DIT822 - Software Engineering for AI Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822)
-- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 </details>
 
