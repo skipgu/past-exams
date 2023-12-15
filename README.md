@@ -36,6 +36,8 @@ Click to expand the list of courses for each programme.
 
 - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342)
 - [DIT345 - Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345)
+- [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348)
+- [DIT633 - Development of Embedded and Realtime systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633)
 - [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
 
 ***
