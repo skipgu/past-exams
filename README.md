@@ -119,5 +119,12 @@ Click to expand the list of courses for each programme.
 - [DIT962 - Datastrukturer](/exams/DIT962)
 - [DIT980 - Diskret matematik för Datavetare](/exams/DIT980)
 - [DIT984 - Diskret matematik för Datavetare](/exams/DIT984)
+- [EDA093 - Operating Systems](/exams/EDA093)
+- [EDA387 - Computer Networks](/exams/EDA387)
+- [EDA452 - Grundläggunde daterteknik](/exams/EDA452)
+- [TDA384 - Principles of concurrent programming](/exams/TDA384)
+- [TDA548 - Grundlöggande programvarutveckling](/exams/TDA548)
+- [TDA555 - Introduction to functional programming](/exams/TDA555)
+- [TIN093 - Algorithms](/exams/TIN093)
 
 </details>
