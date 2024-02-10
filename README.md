@@ -18,40 +18,113 @@ Feel free to explore, **contribute**, and make the most of this repository as yo
 ## Programmes
 
 Click to expand the list of courses for each programme.
-
 <details>
-<summary><b>&#x1F447; Software Engineering and Management BSc.</b></summary>
+<summary><b>&#x1F447; N1SOF - Software Engineering and Management Bachelor's Programme</b></summary>
 
-### Year 1:
+### Term 1:
 
-- [DIT023  - Mathematical Foundations for Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT023)
-- [DIT033  - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033)
-- [DIT043 - Object oriented programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043)
-- [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046)
-- [DIT182 - Datastructures and Algorithms - Chalmers repository](https://github.com/ChalmersGU-data-structure-courses/past-exams/tree/898fde17e9b76906ed57fdbb963f4281a84e0e70)
-- [DIT185- Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185)
+- [DIT043 - Object-Oriented Programming](/exams/DIT043)
+- [DIT023 - Mathematical Foundations for Software Engineering](/exams/DIT023)
+- [DIT046 - Requirements and User Experience](/exams/DIT046)
 
 ***
 
-### Year 2:
+### Term 2:
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342)
-- [DIT345 - Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345)
-- [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348)
-- [DIT633 - Development of Embedded and Realtime systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633)
-- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636)
+- [DIT033 - Data Management](/exams/DIT033)
+- [DIT182 - Data Structures and Algorithms](/exams/DIT182)
+- [DIT185 - Software Analysis and Design](/exams/DIT185)
 
 ***
 
-### Year 3:
+### Term 3:
 
-- [DIT822 - Software Engineering for AI Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822)
+- [DIT345 - Fundamentals of Software Architecture](/exams/DIT345)
+- [DIT342 - Web Development](/exams/DIT342)
+- [DIT348 - Software Development Methodologies](/exams/DIT348)
+
+***
+
+### Term 4:
+
+- [DIT633 - Development of Embedded and Real-Time Systems](/exams/DIT633)
+- [DIT636 - Software Quality and Testing](/exams/DIT636)
+
+***
+
+### Term 5:
+
+- [DIT822 - Software engineering for AI systems](/exams/DIT822)
+
+***
+
+### Term 6:
+
+- [DIT822 - Software engineering for AI systems](/exams/DIT822)
 
 </details>
 
 <details>
-<summary><b>&#x1F447; <code>TODO</code>: Add other programmes</b></summary>
+<summary><b>&#x1F447; N2SOF - Software Engineering and Management Master's Programme</b></summary>
 
-This section is currently under construction. Please check back later!
+- [DIT431 - High Performance Parallel Programming](/exams/DIT431)
+
+</details>
+
+<details>
+<summary><b>&#x1F447; N1COS - Datavetenskapligt program</b></summary>
+
+- [DIT093 - Algorithms](/exams/DIT093)
+- [DIT185 - Software Analysis and Design](/exams/DIT185)
+- [DIT342 - Web Development](/exams/DIT342)
+- [DIT348 - Software Development Methodologies](/exams/DIT348)
+- [DIT401 - Operating Systems](/exams/DIT401)
+
+</details>
+
+<details>
+<summary><b>&#x1F447; N2ADS - Applied Data Science Master's Programme</b></summary>
+
+- [DIT033 - Data Management](/exams/DIT033)
+- [DIT046 - Requirements and User Experience](/exams/DIT046)
+- [DIT093 - Algorithms](/exams/DIT093)
+- [DIT182 - Data Structures and Algorithms](/exams/DIT182)
+- [DIT401 - Operating Systems](/exams/DIT401)
+- [DIT431 - High Performance Parallel Programming](/exams/DIT431)
+- [DIT822 - Software engineering for AI systems](/exams/DIT822)
+
+</details>
+
+<details>
+<summary><b>&#x1F447; N2COS - Computer Science Master's Programme</b></summary>
+
+- [DIT093 - Algorithms](/exams/DIT093)
+- [DIT401 - Operating Systems](/exams/DIT401)
+- [DIT431 - High Performance Parallel Programming](/exams/DIT431)
+
+</details>
+<details>
+<summary><b>&#x1F447; NONE - Courses that have yet to be assigned to any programmes</b></summary>
+
+- [DAT050 - Objektorientered programmering](/exams/DAT050)
+- [DAT060 - Logic in Computer Science](/exams/DAT060)
+- [DAT105 - Computer Architecture](/exams/DAT105)
+- [DAT246 - Empirical Software Engineering](/exams/DAT246)
+- [DAT400 - High Performance Parallel Programming](/exams/DAT400)
+- [DAT555 - Programmeringsteknik : Python](/exams/DAT555)
+- [DIT440 - Introduction to Functional Programming](/exams/DIT440)
+- [DIT670 - Computer Networks](/exams/DIT670)
+- [DIT792 - Grundläggande Datorteknik](/exams/DIT792)
+- [DIT852 - Introduction to Data Science](/exams/DIT852)
+- [DIT962 - Datastrukturer](/exams/DIT962)
+- [DIT980 - Diskret matematik för Datavetare](/exams/DIT980)
+- [DIT984 - Diskret matematik för Datavetare](/exams/DIT984)
+- [EDA093 - Operating Systems](/exams/EDA093)
+- [EDA387 - Computer Networks](/exams/EDA387)
+- [EDA452 - Grundläggunde daterteknik](/exams/EDA452)
+- [TDA384 - Principles of concurrent programming](/exams/TDA384)
+- [TDA548 - Grundlöggande programvarutveckling](/exams/TDA548)
+- [TDA555 - Introduction to functional programming](/exams/TDA555)
+- [TIN093 - Algorithms](/exams/TIN093)
 
 </details>
