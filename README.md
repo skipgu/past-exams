@@ -3,17 +3,28 @@
   <img align="center" src="docs/assets/skip-past-exams-poster.png"/>
 </p><br>
 
-Welcome to the official `GitHub` repository that gathers **examination materials** for programmes at the **IT Faculty** of [Gothenburg University](https://www.gu.se/).
+Welcome to the official `GitHub` repository that gathers **examination
+materials** for programmes at the **IT Faculty** of [Gothenburg
+University](https://www.gu.se/).
 
 ### What's Inside
 
-Our repository currently features a sample of past exams, providing insights into the types of assessments you can expect during your studies. These materials are here to help you prepare effectively, understand the course expectations, and excel in your academic journey.
+Our repository currently features a sample of past exams, providing insights
+into the types of assessments you can expect during your studies. These
+materials are here to help you prepare effectively, understand the course
+expectations, and excel in your academic journey.
 
 ### Explore and Contribute
 
-As we move forward into the academic year of **2023/2024**, our primary focus will be to continuously expand this repository. We are committed to adding old exams for the current study periods, ensuring that you have access to the most up-to-date and relevant assessment materials to support your learning.
+As we move forward into the academic year of **2023/2024**, our primary focus
+will be to continuously expand this repository. We are committed to adding old
+exams for the current study periods, ensuring that you have access to the most
+up-to-date and relevant assessment materials to support your learning.
 
-Feel free to explore, **contribute**, and make the most of this repository as you strive for excellence in your studies. Your feedback and contributions are highly encouraged and appreciated as we work together to enhance this resource for the benefit of the entire student community.
+Feel free to explore, **contribute**, and make the most of this repository as
+you strive for excellence in your studies. Your feedback and contributions are
+highly encouraged and appreciated as we work together to enhance this resource
+for the benefit of the entire student community.
 
 ## Programmes
 
@@ -106,12 +117,12 @@ Click to expand the list of courses for each programme.
 <details>
 <summary><b>&#x1F447; NONE - Courses that have yet to be assigned to any programmes</b></summary>
 
-- [DAT050 - Objektorientered programmering](/exams/DAT050)
+- [DAT050 - Objektorienterad programmering](/exams/DAT050)
 - [DAT060 - Logic in Computer Science](/exams/DAT060)
 - [DAT105 - Computer Architecture](/exams/DAT105)
 - [DAT246 - Empirical Software Engineering](/exams/DAT246)
 - [DAT400 - High Performance Parallel Programming](/exams/DAT400)
-- [DAT555 - Programmeringsteknik : Python](/exams/DAT555)
+- [DAT555 - Programmeringsteknik: Python](/exams/DAT555)
 - [DIT440 - Introduction to Functional Programming](/exams/DIT440)
 - [DIT670 - Computer Networks](/exams/DIT670)
 - [DIT792 - Grundläggande Datorteknik](/exams/DIT792)
@@ -121,9 +132,9 @@ Click to expand the list of courses for each programme.
 - [DIT984 - Diskret matematik för Datavetare](/exams/DIT984)
 - [EDA093 - Operating Systems](/exams/EDA093)
 - [EDA387 - Computer Networks](/exams/EDA387)
-- [EDA452 - Grundläggunde daterteknik](/exams/EDA452)
+- [EDA452 - Grundläggande daterteknik](/exams/EDA452)
 - [TDA384 - Principles of concurrent programming](/exams/TDA384)
-- [TDA548 - Grundlöggande programvarutveckling](/exams/TDA548)
+- [TDA548 - Grundläggande programvarutveckling](/exams/TDA548)
 - [TDA555 - Introduction to functional programming](/exams/TDA555)
 - [TIN093 - Algorithms](/exams/TIN093)
 
