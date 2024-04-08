@@ -15,10 +15,12 @@ If there are multiple markdown files of the same name that needs to be chained t
 for example if you say `programme.mds` then the variables under `programmes` will be available in data (if previous variables don't confict with the current variable, they'll still be available too.) 
 
 ## Variables
+```
 "programmes":
   "programmeCode", "prorammeName":, "language", "terms":
     "termName", "courses":
       "courseCode", "courseName", "courseCredit", "courseLevel", "courseDirectory", "courseExamCount"}
+```
 
 # Settings
 The following settings can be set currently.
