@@ -1,0 +1,1 @@
+- [{{courseCode}} - {{courseName}}]({{courseDirectory}}){{examCount.md}}

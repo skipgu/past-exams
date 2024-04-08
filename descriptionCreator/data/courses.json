@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/courses.json",
   "DIT837": {
     "name": "Bachelor Thesis in Software Engineering and Management",
     "credits": 15,
@@ -189,7 +190,7 @@
     "name": "Network Security",
     "credits": 7.5,
     "level": "master",
-    "programmes": ["N2COS", "N2ADS", "N1COS", "NDATM"]
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
   },
   "DIT075": {
     "name": "Mobile Computing: Design and Implementation",
@@ -213,7 +214,7 @@
     "name": "Language-Based Security",
     "credits": 7.5,
     "level": "master",
-    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS", "NDATM"]
+    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS"]
   },
   "DIT407": {
     "name": "Introduction to Data science and AI",
@@ -315,7 +316,7 @@
     "name": "Distributed Systems, Advanced Course",
     "credits": 7.5,
     "level": "master",
-    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS", "NDATM"]
+    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS"]
   },
   "DIT240": {
     "name": "Distributed Systems",
@@ -423,7 +424,7 @@
     "name": "Computer Architecture",
     "credits": 7.5,
     "level": "master",
-    "programmes": ["N2COS", "N2ADS", "N2SEM", "N2GDT", "N2SOM", "N1COS", "NDATM"]
+    "programmes": ["N2COS", "N2ADS", "N2SEM", "N2GDT", "N2SOM", "N1COS"]
   },
   "DIT743": {
     "name": "Computational Methods in Bioinformatics",

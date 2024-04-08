@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema for defining programme details",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Relative path to the JSON schema definition",
+      "default": "./schemas/programmes.json"
+    }
+  },
+  "patternProperties": {
+    "^[A-Za-z0-9]{5}$": {
+      "description": "Code for the programme (alphanumeric, 5 characters)",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the programme"
+        },
+        "language": {
+          "type": "string",
+          "enum": ["en", "se"],
+          "description": "Language of the programme ('en' for English, 'se' for Swedish)"
+        }
+      },
+      "required": ["name", "language"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": ["$schema"]
+}

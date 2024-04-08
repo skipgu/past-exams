@@ -1,0 +1,6 @@
+
+### {{termName}}
+
+{{course.mds}}
+
+***

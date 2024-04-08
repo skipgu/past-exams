@@ -1,0 +1,492 @@
+{
+  "programmes": [
+    {
+      "programmeCode": "N1SOF",
+      "programmeName": "Software Engineering and Management Bachelor's Programme",
+      "programmeLanguage": "en",
+      "terms": [
+        {
+          "termName": "Term 1",
+          "courses": [
+            {
+              "courseCode": "DIT043",
+              "courseName": "Object-Oriented Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT043"
+            },
+            {
+              "courseCode": "DIT023",
+              "courseName": "Mathematical Foundations for Software Engineering",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 9,
+              "courseDirectory": "./exams/DIT023"
+            },
+            {
+              "courseCode": "DIT046",
+              "courseName": "Requirements and User Experience",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT046"
+            }
+          ]
+        },
+        {
+          "termName": "Term 2",
+          "courses": [
+            {
+              "courseCode": "DIT033",
+              "courseName": "Data Management",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 9,
+              "courseDirectory": "./exams/DIT033"
+            },
+            {
+              "courseCode": "DIT182",
+              "courseName": "Data Structures and Algorithms",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 0,
+              "courseDirectory": "./exams/DIT182"
+            },
+            {
+              "courseCode": "DIT185",
+              "courseName": "Software Analysis and Design",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 3,
+              "courseDirectory": "./exams/DIT185"
+            }
+          ]
+        },
+        {
+          "termName": "Term 3",
+          "courses": [
+            {
+              "courseCode": "DIT345",
+              "courseName": "Fundamentals of Software Architecture",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT345"
+            },
+            {
+              "courseCode": "DIT342",
+              "courseName": "Web Development",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 10,
+              "courseDirectory": "./exams/DIT342"
+            },
+            {
+              "courseCode": "DIT348",
+              "courseName": "Software Development Methodologies",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 0,
+              "courseDirectory": "./exams/DIT348"
+            }
+          ]
+        },
+        {
+          "termName": "Term 4",
+          "courses": [
+            {
+              "courseCode": "DIT633",
+              "courseName": "Development of Embedded and Real-Time Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 4,
+              "courseDirectory": "./exams/DIT633"
+            },
+            {
+              "courseCode": "DIT636",
+              "courseName": "Software Quality and Testing",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT636"
+            }
+          ]
+        },
+        {
+          "termName": "Term 5",
+          "courses": [
+            {
+              "courseCode": "DIT822",
+              "courseName": "Software engineering for AI systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT822"
+            }
+          ]
+        },
+        {
+          "termName": "Term 6",
+          "courses": [
+            {
+              "courseCode": "DIT822",
+              "courseName": "Software engineering for AI systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT822"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "N2SOF",
+      "programmeName": "Software Engineering and Management Master's Programme",
+      "programmeLanguage": "en",
+      "terms": [
+        {
+          "termName": "",
+          "courses": [
+            {
+              "courseCode": "DIT431",
+              "courseName": "High Performance Parallel Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT431"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "N1COS",
+      "programmeName": "Datavetenskapligt program",
+      "programmeLanguage": "se",
+      "terms": [
+        {
+          "termName": "",
+          "courses": [
+            {
+              "courseCode": "DIT342",
+              "courseName": "Web Development",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 10,
+              "courseDirectory": "./exams/DIT342"
+            },
+            {
+              "courseCode": "DIT348",
+              "courseName": "Software Development Methodologies",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 0,
+              "courseDirectory": "./exams/DIT348"
+            },
+            {
+              "courseCode": "DIT185",
+              "courseName": "Software Analysis and Design",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 3,
+              "courseDirectory": "./exams/DIT185"
+            },
+            {
+              "courseCode": "DIT401",
+              "courseName": "Operating Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT401"
+            },
+            {
+              "courseCode": "DIT093",
+              "courseName": "Algorithms",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT093"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "N2ADS",
+      "programmeName": "Applied Data Science Master's Programme",
+      "programmeLanguage": "en",
+      "terms": [
+        {
+          "termName": "",
+          "courses": [
+            {
+              "courseCode": "DIT822",
+              "courseName": "Software engineering for AI systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT822"
+            },
+            {
+              "courseCode": "DIT046",
+              "courseName": "Requirements and User Experience",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 5,
+              "courseDirectory": "./exams/DIT046"
+            },
+            {
+              "courseCode": "DIT401",
+              "courseName": "Operating Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT401"
+            },
+            {
+              "courseCode": "DIT431",
+              "courseName": "High Performance Parallel Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT431"
+            },
+            {
+              "courseCode": "DIT182",
+              "courseName": "Data Structures and Algorithms",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 0,
+              "courseDirectory": "./exams/DIT182"
+            },
+            {
+              "courseCode": "DIT033",
+              "courseName": "Data Management",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 9,
+              "courseDirectory": "./exams/DIT033"
+            },
+            {
+              "courseCode": "DIT093",
+              "courseName": "Algorithms",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT093"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "N2COS",
+      "programmeName": "Computer Science Master's Programme",
+      "programmeLanguage": "en",
+      "terms": [
+        {
+          "termName": "",
+          "courses": [
+            {
+              "courseCode": "DIT401",
+              "courseName": "Operating Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT401"
+            },
+            {
+              "courseCode": "DIT431",
+              "courseName": "High Performance Parallel Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT431"
+            },
+            {
+              "courseCode": "DIT093",
+              "courseName": "Algorithms",
+              "courseCredit": 7.5,
+              "courseLevel": "master",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT093"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "NONE",
+      "programmeLanguage": null,
+      "terms": [
+        {
+          "termName": "",
+          "courses": [
+            {
+              "courseCode": "DAT050",
+              "courseName": "Objektorientered programmering",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DAT050"
+            },
+            {
+              "courseCode": "DAT060",
+              "courseName": "Logic in Computer Science",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DAT060"
+            },
+            {
+              "courseCode": "DAT105",
+              "courseName": "Computer Architecture",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DAT105"
+            },
+            {
+              "courseCode": "DAT246",
+              "courseName": "Empirical Software Engineering",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DAT246"
+            },
+            {
+              "courseCode": "DAT400",
+              "courseName": "High Performance Parallel Programming",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DAT400"
+            },
+            {
+              "courseCode": "DAT555",
+              "courseName": "Programmeringsteknik",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DAT555"
+            },
+            {
+              "courseCode": "DIT440",
+              "courseName": "Introduction to Functional Programming",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DIT440"
+            },
+            {
+              "courseCode": "DIT670",
+              "courseName": "Computer Networks",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT670"
+            },
+            {
+              "courseCode": "DIT792",
+              "courseName": "Grundläggande Datorteknik",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT792"
+            },
+            {
+              "courseCode": "DIT852",
+              "courseName": "Introduction to Data Science",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DIT852"
+            },
+            {
+              "courseCode": "DIT962",
+              "courseName": "Datastrukturer",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DIT962"
+            },
+            {
+              "courseCode": "DIT980",
+              "courseName": "Diskret matematik för Datavetare",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT980"
+            },
+            {
+              "courseCode": "DIT984",
+              "courseName": "Diskret matematik för Datavetare",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT984"
+            },
+            {
+              "courseCode": "EDA093",
+              "courseName": "Operating Systems",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/EDA093"
+            },
+            {
+              "courseCode": "EDA387",
+              "courseName": "Computer Networks",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/EDA387"
+            },
+            {
+              "courseCode": "EDA452",
+              "courseName": "Grundläggunde daterteknik",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/EDA452"
+            },
+            {
+              "courseCode": "TDA384",
+              "courseName": "Principles of concurrent programming",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/TDA384"
+            },
+            {
+              "courseCode": "TDA548",
+              "courseName": "Grundlöggande programvarutveckling",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/TDA548"
+            },
+            {
+              "courseCode": "TDA555",
+              "courseName": "Introduction to functional programming",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/TDA555"
+            },
+            {
+              "courseCode": "TIN093",
+              "courseName": "Algorithms",
+              "courseCredit": null,
+              "courseLevel": null,
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/TIN093"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
