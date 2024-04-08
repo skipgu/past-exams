@@ -1,50 +1,51 @@
 {
+  "$schema": "../schemas/programmes.json",
   "N2ADS": {
     "name": "Applied Data Science Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "N2COS": {
     "name": "Computer Science Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "N1COS": {
     "name": "Datavetenskapligt program",
-    "lang": "se"
+    "language": "se"
   },
   "N2DGL": {
     "name": "Digital Leadership Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "N2GDT": {
     "name": "Game Design & Technology Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "T2HAI": {
     "name": "Human-centered Artificial Intelligence Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "S2ITL": {
     "name": "International Master's Programme in Information Technology and Learning",
-    "lang": "en"
+    "language": "en"
   },
   "N2LKI": {
     "name": "Lärande, kommunikation och informationsteknologi, Magisterprogram",
-    "lang": "se"
+    "language": "se"
   },
   "H2LTG": {
     "name": "Master in Language Technology",
-    "lang": "en"
+    "language": "en"
   },
   "N1SOF": {
     "name": "Software Engineering and Management Bachelor's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "N2SOF": {
     "name": "Software Engineering and Management Master's Programme",
-    "lang": "en"
+    "language": "en"
   },
   "N1SYD": {
     "name": "Systemvetenskap: samhällets digitalisering, kandidatprogram",
-    "lang": "se"
+    "language": "se"
   }
 }

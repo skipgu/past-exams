@@ -1,0 +1,57 @@
+{
+  "$schema": "../schemas/programmeOrders.json",
+  "N1SOF": [
+    {
+      "name": "Term 1",
+      "courses": [
+        "DIT043",
+        "DIT023",
+        "DIT046",
+        "DIT094"
+      ]
+    },
+    {
+      "name": "Term 2",
+      "courses": [
+        "DIT033",
+        "DIT182",
+        "DIT185",
+        "DIT113"
+      ]
+    },
+    {
+      "name": "Term 3",
+      "courses": [
+        "DIT345",
+        "DIT342",
+        "DIT348",
+        "DIT356"
+      ]
+    },
+    {
+      "name": "Term 4",
+      "courses": [
+        "DIT633",
+        "DIT636",
+        "DIT639"
+      ]
+    },
+    {
+      "name": "Term 5",
+      "courses": [
+        "DIT038",
+        "DIT822",
+        "DIT826",
+        "DIT828"
+      ]
+    },
+    {
+      "name": "Term 6",
+      "courses": [
+        "DIT836",
+        "DIT822",
+        "DIT837"
+      ]
+    }
+  ]
+}

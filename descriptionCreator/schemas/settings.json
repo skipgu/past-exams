@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema for defining setting details",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Relative path to the JSON schema definition",
+      "default": "./schemas/settings.json"
+    },
+    "priorityProgrammes": {
+      "type": "array",
+      "description": "Ordered list of programmes that should be prioritized",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9]{5}$",
+        "description": "Code for the programme (alphanumeric, 5 characters)"
+      },
+      "default": []
+    },
+    "extraCourses" : {
+      "type": "boolean",
+      "description": "List the courses that are not in any programmes",
+      "default": false
+    },
+    "emptyCourses": {
+      "type": "boolean",
+      "description": "List courses that are defined and have no exams",
+      "default": false
+    },
+    "extraProgrammes": {
+      "type": "boolean",
+      "description": "List programmes that are not defined",
+      "default": false
+    },
+    "emptyProgrammes": {
+      "type": "boolean",
+      "description": "List programmes without courses",
+      "default": false
+    },
+    "termifyProgrammes": {
+      "type": "boolean",
+      "description": "Split courses by terms if the programme terms are defined",
+      "default": true
+    },
+    "courseNotAssigned": {
+      "type": "string",
+      "description": "The name of the fake programme that contains courses not in any programmes",
+      "default": "Courses that have yet to be assigned to any programmes"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["$schema"]
+}

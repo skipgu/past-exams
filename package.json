@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "createDescription": "node ./descriptionCreator/main.js"
+  },
+  "type": "module"
+}
