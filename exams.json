@@ -319,6 +319,7 @@
     },
     {
       "programmeCode": "NONE",
+      "programmeName": "Courses that have yet to be assigned to any programmes",
       "programmeLanguage": null,
       "terms": [
         {

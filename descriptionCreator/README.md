@@ -19,7 +19,7 @@ for example if you say `programme.mds` then the variables under `programmes` wil
 "programmes":
   "programmeCode", "prorammeName":, "language", "terms":
     "termName", "courses":
-      "courseCode", "courseName", "courseCredit", "courseLevel", "courseDirectory", "courseExamCount"}
+      "courseCode", "courseName", "courseCredit", "courseLevel", "courseDirectory", "courseExamCount"
 ```
 
 # Settings

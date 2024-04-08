@@ -3,10 +3,9 @@ import * as fs from 'fs';
 import courses from "../data/courses.json" assert {type: "json"};
 import programmes from "../data/programmes.json" assert {type: "json"};
 import programmeOrders from "../data/programmeOrders.json" assert {type: "json"};
-import settings from "../settings.json" assert {type: "json"};
 
 // List courses that are defined and have no exams
-function checkEmptyCourses() {
+function checkEmptyCourses(settings) {
   for (const course in courses) {
     if (!fs.existsSync(`./exams/${course}`)) {
       delete courses[course];
@@ -15,7 +14,7 @@ function checkEmptyCourses() {
 }
 
 // List the courses that are not in any programmes
-function checkExtraCourses() {
+function checkExtraCourses(settings) {
   const courseList = fs.readdirSync("./exams/");
   for (const course of courseList) {
     if (!courses[course]) {
@@ -32,7 +31,7 @@ function checkExtraCourses() {
   }
 }
 
-function countExams() {
+function countExams(settings) {
   for (const course in courses) {
     if (fs.existsSync(`./exams/${course}`)) {
       const directories = fs.readdirSync(`./exams/${course}`, { withFileTypes: true });
@@ -47,7 +46,7 @@ function countExams() {
   }
 }
 
-function populateProgrammes() {
+function populateProgrammes(settings) {
   for (const programme in programmeOrders) {
     if (!programmes[programme]) {
       programmes[programme] = {name: null, language: null};
@@ -79,7 +78,7 @@ function populateProgrammes() {
   }
 }
 
-function checkExtraProgrammes() {
+function checkExtraProgrammes(settings) {
   for (const programme in programmes) {
     if (!programmes[programme].name) {
       delete programmes[programme];
@@ -87,7 +86,7 @@ function checkExtraProgrammes() {
   }
 }
 
-function checkForEmptyProgrammes() {
+function checkForEmptyProgrammes(settings) {
   for (const programme in programmes) {
     if (!programmes[programme].courses) {
       delete programmes[programme];
@@ -95,7 +94,7 @@ function checkForEmptyProgrammes() {
   }
 }
 
-function checkEmptyProgrammes() {
+function checkEmptyProgrammes(settings) {
   const priority = settings.priorityProgrammes;
   priority.forEach(programme => {
     if (!programmes[programme]) programmes[programme] = {name: null, language: null, courses: [], terms: []}; 
@@ -103,7 +102,7 @@ function checkEmptyProgrammes() {
 }
 
 const orderedProgrammes = [];
-function orderProgrammes() {
+function orderProgrammes(settings) {
   const priority = settings.priorityProgrammes;
   priority.forEach(programme => {
     if (programmes[programme]) { orderedProgrammes.push({programmeCode: programme, ...programmes[programme]}); }
@@ -123,7 +122,7 @@ function orderProgrammes() {
   });
 }
 
-function checkProgrammelessCourses() {
+function checkProgrammelessCourses(settings) {
   const courseArrays = Object.values(programmes).map(programme => programme.courses);
   
   const inProgramme = courseArrays.reduce((allCourses, currentCourses) => {
@@ -132,7 +131,7 @@ function checkProgrammelessCourses() {
 
   for (const course in courses) {
     if (!inProgramme.includes(course)) {
-      if (!programmes.NONE) { programmes.NONE = {name: settings.courseNotAssigned, language: null, courses: []}; }
+      if (!programmes.NONE) { programmes.NONE = {name: `${settings.courseNotAssigned}`, language: null, courses: []}; }
       programmes.NONE.courses.push(course);
     }
   }
@@ -141,7 +140,7 @@ function checkProgrammelessCourses() {
   }
 }
 
-function putInCourses() {
+function putInCourses(settings) {
   orderedProgrammes.forEach(programme => {
     if (programme.terms != undefined) {
       programme.terms.forEach(term => {
@@ -151,25 +150,25 @@ function putInCourses() {
   });
 }
 
-export function processData() {
+export function processData(settings) {
   delete courses.$schema;
   delete programmes.$schema;
   delete programmeOrders.$schema;
 
-  if (!settings.emptyCourses) { checkEmptyCourses(); }
-  if (settings.extraCourses) { checkExtraCourses(); }
+  if (!settings.emptyCourses) { checkEmptyCourses(settings); }
+  if (settings.extraCourses) { checkExtraCourses(settings); }
   countExams();
 
-  populateProgrammes();
-  if (!settings.extraProgrammes) { checkExtraProgrammes(); }
-  if (!settings.emptyProgrammes) { checkForEmptyProgrammes(); }
-  if (settings.emptyProgrammes) { checkEmptyProgrammes(); }
+  populateProgrammes(settings);
+  if (!settings.extraProgrammes) { checkExtraProgrammes(settings); }
+  if (!settings.emptyProgrammes) { checkForEmptyProgrammes(settings); }
+  if (settings.emptyProgrammes) { checkEmptyProgrammes(settings); }
 
-  checkProgrammelessCourses();
+  checkProgrammelessCourses(settings);
   
-  orderProgrammes();
+  orderProgrammes(settings);
 
-  putInCourses();
+  putInCourses(settings);
 
   const cleaned = {
     programmes: orderedProgrammes.map(({programmeCode, name, language, terms}) => ({

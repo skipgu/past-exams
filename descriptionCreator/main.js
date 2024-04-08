@@ -9,7 +9,7 @@ import { settings } from './modules/settings.js';
  * @param {{[x: string]: any}} settings 
  */
 function main(settings) {
-  let programmes = processData();
+  let programmes = processData(settings);
 
   fs.writeFileSync("./exams.json", JSON.stringify(programmes,null,2), "utf-8");
 

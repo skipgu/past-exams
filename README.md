@@ -135,7 +135,7 @@ Click to expand the list of courses for each programme.
 </details>
 
 <details>
-<summary><b>&#x1F447; NONE - undefined</b></summary>
+<summary><b>&#x1F447; NONE - Courses that have yet to be assigned to any programmes</b></summary>
 
 ### 
 
