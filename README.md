@@ -14,6 +14,13 @@ into the types of assessments you can expect during your studies. These
 materials are here to help you prepare effectively, understand the course
 expectations, and excel in your academic journey.
 
+## Interested in a particular course?
+
+We're enabling students to **request** past exams for specific courses. If you
+can't find the exam you're looking for, simply fill in the form below and we'll
+do our best to provide you with the materials you need as soon as possible.
+> --> [**Request Past Exams**](https://tinyurl.com/skip-request-exams-cse)
+
 ### Explore and Contribute
 
 As we move forward into the academic year of **2023/2024**, our primary focus
