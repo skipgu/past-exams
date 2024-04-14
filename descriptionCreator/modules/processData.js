@@ -183,7 +183,7 @@ export function processData(settings) {
           courseCredit: credits,
           courseLevel: level,
           courseExamCount: exams,
-          courseDirectory: `./exams/${courseCode}`
+          courseDirectory: `https://github.com/skipgu/past-exams/tree/main/exams/${courseCode}`
         }))
       }))
     }))

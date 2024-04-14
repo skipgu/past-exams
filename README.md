@@ -37,49 +37,50 @@ for the benefit of the entire student community.
 
 Click to expand the list of courses for each programme.
 
+
 <details>
 <summary><b>&#x1F447; N1SOF - Software Engineering and Management Bachelor's Programme</b></summary>
 
 ### Term 1
 
-- [DIT043 - Object-Oriented Programming](./exams/DIT043) 5 exams.
-- [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
-- [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
+- [DIT043 - Object-Oriented Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043) 5 exams.
+- [DIT023 - Mathematical Foundations for Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT023) 9 exams.
+- [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) 5 exams.
 
 ***
 
 ### Term 2
 
-- [DIT033 - Data Management](./exams/DIT033) 9 exams.
-- [DIT182 - Data Structures and Algorithms](./exams/DIT182) 0 exams.
-- [DIT185 - Software Analysis and Design](./exams/DIT185) 3 exams.
+- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
+- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 24 exams.
+- [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) 3 exams.
 
 ***
 
 ### Term 3
 
-- [DIT345 - Fundamentals of Software Architecture](./exams/DIT345) 5 exams.
-- [DIT342 - Web Development](./exams/DIT342) 10 exams.
-- [DIT348 - Software Development Methodologies](./exams/DIT348) 0 exams.
+- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 5 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 10 exams.
+- [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 0 exams.
 
 ***
 
 ### Term 4
 
-- [DIT633 - Development of Embedded and Real-Time Systems](./exams/DIT633) 4 exams.
-- [DIT636 - Software Quality and Testing](./exams/DIT636) 5 exams.
+- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 4 exams.
+- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 5 exams.
 
 ***
 
 ### Term 5
 
-- [DIT822 - Software engineering for AI systems](./exams/DIT822) 5 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
 
 ***
 
 ### Term 6
 
-- [DIT822 - Software engineering for AI systems](./exams/DIT822) 5 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
 
 ***
 
@@ -90,7 +91,7 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT431 - High Performance Parallel Programming](./exams/DIT431) 1 exams.
+- [DIT431 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT431) 1 exams.
 
 ***
 
@@ -101,11 +102,11 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT342 - Web Development](./exams/DIT342) 10 exams.
-- [DIT348 - Software Development Methodologies](./exams/DIT348) 0 exams.
-- [DIT185 - Software Analysis and Design](./exams/DIT185) 3 exams.
-- [DIT401 - Operating Systems](./exams/DIT401) 1 exams.
-- [DIT093 - Algorithms](./exams/DIT093) 1 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 10 exams.
+- [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 0 exams.
+- [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) 3 exams.
+- [DIT401 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT401) 1 exams.
+- [DIT093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT093) 1 exams.
 
 ***
 
@@ -116,13 +117,13 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT822 - Software engineering for AI systems](./exams/DIT822) 5 exams.
-- [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
-- [DIT401 - Operating Systems](./exams/DIT401) 1 exams.
-- [DIT431 - High Performance Parallel Programming](./exams/DIT431) 1 exams.
-- [DIT182 - Data Structures and Algorithms](./exams/DIT182) 0 exams.
-- [DIT033 - Data Management](./exams/DIT033) 9 exams.
-- [DIT093 - Algorithms](./exams/DIT093) 1 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
+- [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) 5 exams.
+- [DIT401 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT401) 1 exams.
+- [DIT431 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT431) 1 exams.
+- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 24 exams.
+- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
+- [DIT093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT093) 1 exams.
 
 ***
 
@@ -133,9 +134,9 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT401 - Operating Systems](./exams/DIT401) 1 exams.
-- [DIT431 - High Performance Parallel Programming](./exams/DIT431) 1 exams.
-- [DIT093 - Algorithms](./exams/DIT093) 1 exams.
+- [DIT401 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT401) 1 exams.
+- [DIT431 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT431) 1 exams.
+- [DIT093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT093) 1 exams.
 
 ***
 
@@ -146,26 +147,26 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DAT050 - Objektorientered programmering](./exams/DAT050) 2 exams.
-- [DAT060 - Logic in Computer Science](./exams/DAT060) 2 exams.
-- [DAT105 - Computer Architecture](./exams/DAT105) 2 exams.
-- [DAT246 - Empirical Software Engineering](./exams/DAT246) 2 exams.
-- [DAT400 - High Performance Parallel Programming](./exams/DAT400) 1 exams.
-- [DAT555 - Programmeringsteknik](./exams/DAT555) 2 exams.
-- [DIT440 - Introduction to Functional Programming](./exams/DIT440) 2 exams.
-- [DIT670 - Computer Networks](./exams/DIT670) 1 exams.
-- [DIT792 - Grundläggande Datorteknik](./exams/DIT792) 1 exams.
-- [DIT852 - Introduction to Data Science](./exams/DIT852) 2 exams.
-- [DIT962 - Datastrukturer](./exams/DIT962) 2 exams.
-- [DIT980 - Diskret matematik för Datavetare](./exams/DIT980) 1 exams.
-- [DIT984 - Diskret matematik för Datavetare](./exams/DIT984) 1 exams.
-- [EDA093 - Operating Systems](./exams/EDA093) 1 exams.
-- [EDA387 - Computer Networks](./exams/EDA387) 2 exams.
-- [EDA452 - Grundläggunde daterteknik](./exams/EDA452) 1 exams.
-- [TDA384 - Principles of concurrent programming](./exams/TDA384) 2 exams.
-- [TDA548 - Grundlöggande programvarutveckling](./exams/TDA548) 2 exams.
-- [TDA555 - Introduction to functional programming](./exams/TDA555) 2 exams.
-- [TIN093 - Algorithms](./exams/TIN093) 2 exams.
+- [DAT050 - Objektorientered programmering](https://github.com/skipgu/past-exams/tree/main/exams/DAT050) 2 exams.
+- [DAT060 - Logic in Computer Science](https://github.com/skipgu/past-exams/tree/main/exams/DAT060) 2 exams.
+- [DAT105 - Computer Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DAT105) 2 exams.
+- [DAT246 - Empirical Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DAT246) 2 exams.
+- [DAT400 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DAT400) 1 exams.
+- [DAT555 - Programmeringsteknik](https://github.com/skipgu/past-exams/tree/main/exams/DAT555) 2 exams.
+- [DIT440 - Introduction to Functional Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT440) 2 exams.
+- [DIT670 - Computer Networks](https://github.com/skipgu/past-exams/tree/main/exams/DIT670) 1 exams.
+- [DIT792 - Grundläggande Datorteknik](https://github.com/skipgu/past-exams/tree/main/exams/DIT792) 1 exams.
+- [DIT852 - Introduction to Data Science](https://github.com/skipgu/past-exams/tree/main/exams/DIT852) 2 exams.
+- [DIT962 - Datastrukturer](https://github.com/skipgu/past-exams/tree/main/exams/DIT962) 2 exams.
+- [DIT980 - Diskret matematik för Datavetare](https://github.com/skipgu/past-exams/tree/main/exams/DIT980) 1 exams.
+- [DIT984 - Diskret matematik för Datavetare](https://github.com/skipgu/past-exams/tree/main/exams/DIT984) 1 exams.
+- [EDA093 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/EDA093) 1 exams.
+- [EDA387 - Computer Networks](https://github.com/skipgu/past-exams/tree/main/exams/EDA387) 2 exams.
+- [EDA452 - Grundläggunde daterteknik](https://github.com/skipgu/past-exams/tree/main/exams/EDA452) 1 exams.
+- [TDA384 - Principles of concurrent programming](https://github.com/skipgu/past-exams/tree/main/exams/TDA384) 2 exams.
+- [TDA548 - Grundlöggande programvarutveckling](https://github.com/skipgu/past-exams/tree/main/exams/TDA548) 2 exams.
+- [TDA555 - Introduction to functional programming](https://github.com/skipgu/past-exams/tree/main/exams/TDA555) 2 exams.
+- [TIN093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/TIN093) 2 exams.
 
 ***
 
