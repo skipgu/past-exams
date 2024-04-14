@@ -545,5 +545,47 @@
     "level": "master",
     "credits": 7.5,
     "programmes": ["N2COS", "N2ADS", "N1COS", "N2GDT"]
+  },
+  "DIT440": {
+    "name": "Introduction to Functional Programming",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT670": {
+    "name": "Computer Networks",
+    "level": "master",
+    "credits": 7.5,
+    "programmes": ["N2COS"]
+  },
+  "DIT792": {
+    "name": "Grundläggande datorteknik",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT852": {
+    "name": "Introduction to Data Science",
+    "level": "master",
+    "credits": 7.5,
+    "programmes": ["N2ADS"]
+  },
+  "DIT962": {
+    "name": "Datastrukturer | Data Structures",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N2MAT", "N1COS", "N1MAT"]
+  },
+  "DIT980": {
+    "name": "Diskret matematik för Datavetare",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT984": {
+    "name": "Diskret matematik för Datavetare",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
   }
 }
