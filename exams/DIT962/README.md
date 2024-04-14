@@ -1,5 +1,5 @@
-# DIT962 - Datastrukturer
-Welcome to the DIT962 - Datastrukturer, where we've compiled past exams and student answers to assist in your preparation for this course.
+# DIT962 - Datastrukturer | Data Structures
+Welcome to the DIT962 - Datastrukturer | Data Structures, where we've compiled past exams and student answers to assist in your preparation for this course.
 
 Here’s what we have so far:
 

@@ -1,14 +1,12 @@
-## DIT043 - Object oriented programming
-Welcome to the DIT043 - Object oriented programming, where we've compiled past exams and student answers to assist in your preparation for this course.
+## DIT043 - Object-Oriented Programming
+Welcome to the DIT043 - Object-Oriented Programming, where we've compiled past exams and student answers to assist in your preparation for this course.
 
 Here’s what we have so far:
 
-* 2021-10-28 Exam questions with student answers from one source
-
-* 2022-01-03 Exam questions with student answers from two sources
-
-* 2022-08-16 Exam questions with student answers from one source
-
-* 2022-10-24 Exam questions with student answers from two sources
-
-* 2023-01-04 Exam questions with student answers from one source
+|    Date    | Questions | Answers |
+|------------|-----------|---------|
+| 2021-10-28 | Yes       | Yes     |
+| 2022-01-03 | Yes       | Yes     |
+| 2022-08-16 | Yes       | Yes     |
+| 2022-10-24 | Yes       | Yes     |
+| 2023-01-04 | Yes       | Yes     |
