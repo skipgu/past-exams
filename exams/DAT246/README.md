@@ -1,5 +1,5 @@
-# DAT246 - Empirical Software Engineering
-Welcome to the DAT246 - Empirical Software Engineering, where we've compiled past exams and student answers to assist in your preparation for this course.
+# DAT246 - Empirical software engineering
+Welcome to the DAT246 - Empirical software engineering, where we've compiled past exams and student answers to assist in your preparation for this course.
 
 Here’s what we have so far:
 
