@@ -6,11 +6,11 @@ Here’s what we have so far:
 |    Date    | Questions | Answers |                Notes                |
 |------------|-----------|---------|-------------------------------------|
 | 2021-03-16 | Yes       | Yes     |                                     |
-| 2021-06-02 | Yes       | Yes     |                                     |
-| 2021-08-27 | Yes       | Yes     |                                     |
+| 2021-06-02 | Yes       | No      |                                     |
+| 2021-08-27 | Yes       | No      |                                     |
 | 2022-03-99 | Yes       | No      | Exact date unkown                   |
 | 2022-06-99 | Yes       | No      | Exact date unkown                   |
 | 2022-08-99 | Yes       | No      | Exact date unkown                   |
 | 2023-03-16 | Yes       | Yes     | Answers are not completely reliable |
 | 2023-06-99 | Yes       | No      | Exact date unkown                   |
-| 2023-09-99 | Yes       | No      | Exact date unkown                   |
+| 2023-08-99 | Yes       | No      | Exact date unkown                   |
