@@ -70,6 +70,7 @@ function populateProgrammes(settings) {
         if (!programmeOrders[programme]) { programmeOrders[programme] = []; }
         const terms = programmeOrders[programme].map(term => term.name);
         if (!terms.includes("")) {programmeOrders[programme].push({"name": "", courses: []})}
+        programmeOrders[programme] = [...programmeOrders[programme]].filter(item => item);
         const term = programmeOrders[programme].findIndex(term => term.name == "");
         programmeOrders[programme][term].courses.push(course);
         programmes[programme].courses.push(course);
@@ -113,7 +114,7 @@ function orderProgrammes(settings) {
     orderedProgrammes.push({programmeCode: programme, ...programmes[programme]});
   });
 
-  if (settings.extraCourses) {
+  if (settings.extraCourses && programmes.NONE) {
     orderedProgrammes.push({programmeCode: "NONE", ...programmes.NONE});
   }
   
@@ -135,7 +136,7 @@ function checkProgrammelessCourses(settings) {
       programmes.NONE.courses.push(course);
     }
   }
-  if (settings.extraCourses) {
+  if (settings.extraCourses && programmes.NONE) {
     programmeOrders.NONE = [{name: "", courses: programmes.NONE.courses}]
   }
 }
