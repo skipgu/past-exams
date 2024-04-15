@@ -34,9 +34,9 @@ function checkExtraCourses(settings) {
 function countExams(settings) {
   for (const course in courses) {
     if (fs.existsSync(`./exams/${course}`)) {
-      const directories = fs.readdirSync(`./exams/${course}`, { withFileTypes: true });
+      const examDirectoryContent = fs.readdirSync(`./exams/${course}`, { withFileTypes: true });
 
-      const examCount = directories.filter(directory => directory.isDirectory() && /^\d{4}-\d{2}-\d{2}$/.test(directory.name)).length;
+    const examCount = examDirectoryContent.filter(content => content.isDirectory() && /^\d{4}-\d{2}-\d{2}$/.test(content.name)).length + examDirectoryContent.filter(content => content.isFile() && /^final_report-[a-zA-Z0-9]{6}-/.test(content.name)).length;
 
 
       courses[course].exams = examCount;
