@@ -9,7 +9,7 @@
     "language": "en"
   },
   "N1COS": {
-    "name": "Datavetenskapligt program",
+    "name": "Datavetenskapligt program | Computer Science, Bachelor's Programme",
     "language": "se"
   },
   "N2DGL": {
@@ -29,7 +29,7 @@
     "language": "en"
   },
   "N2LKI": {
-    "name": "Lärande, kommunikation och informationsteknologi, Magisterprogram",
+    "name": "Lärande, kommunikation och informationsteknologi, Magisterprogram |  Learning, Communication and Information Technology, Master's Programme",
     "language": "se"
   },
   "H2LTG": {
@@ -61,15 +61,19 @@
     "language": "se"
   },
   "TKITE": {
-    "name": "Informationsteknik, civilingenjör",
+    "name": "Informationsteknik, civilingenjör | Software Engineering",
     "language": "se"
   },
   "TKIEK": {
-    "name": "Industriell ekonomi, civilingenjör",
+    "name": "Industriell ekonomi, civilingenjör | Industrial Engineering and Management",
     "language": "se"
   },
   "MPHPC": {
     "name": "High-performance computer systems, MSc",
     "language": "en"
+  },
+  "TIELL": {
+    "name": "Elektroteknik, högskoleingenjör | Electrical Engineering",
+    "language": "se"
   }
 }
