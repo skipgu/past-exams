@@ -587,5 +587,215 @@
     "level": "bachelor",
     "credits": 7.5,
     "programmes": ["N1COS"]
+  },
+  "CLS050": {
+    "name": "Introduktion till kommunikation och ingenjörskompetens | Introduction to communication and engineering expertise",
+    "level": "bachelor",
+    "credits": 1.5,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LEU432": {
+    "name": "Grundläggande datorteknik | Introduction to computer engineering",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "LEU470": {
+    "name": "Elektriska kretsar | Electrical circuits",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "MVE675": {
+    "name": "Algebra | Linear algebra",
+    "level": "bachelor",
+    "credits": 6,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LEU483": {
+    "name": "Computer programming | Computer programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "DAT390": {
+    "name": "Maskinorienterad programmering | Machine oriented programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "MVE535": {
+    "name": "Matematisk analys, del 1 | Introductory course in mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LET627": {
+    "name": "Realtidssystem, grundkurs | Introduction to real time systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "LSP581": {
+    "name": "Projektkommunikation på engelska | Project communication in english",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "MVE545": {
+    "name": "Calculus, part 2 | Matematisk analys, del 2",
+    "credits": 3,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "DAT050": {
+    "name": "Objektorienterad programmering | Object oriented programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIMEL"]
+  },
+  "TMV211": {
+    "name": "",
+    "credits": -1,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "LEU237": {
+    "name": "",
+    "credits": -1,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "TDA357": {
+    "name": "Inledande diskret matematik | Introduction to discrete mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TKDAT"]
+  },
+  "DAT055": {
+    "name": "Objektorienterade applikationer | Object oriented applications",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "SSY326": {
+    "name": "Ledarskap och personlig utveckling | Leadership and personal development",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "DAT495": {
+    "name": "Datastrukturer och algoritmer | Data structures and algorithms",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "FFR102": {
+    "name": "Hållbar utveckling - kritiska perspektiv och möjliga lösningar | Sustainable development - critical perspectives and possible solutions",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL"]
+  },
+  "DAT257": {
+    "name": "Agile software project management",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TKDAT"]
+  },
+  "LSP127": {
+    "name": "Kommunikation i yrkeslivet | Professional communication",
+    "credits": 1.5,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL"]
+  },
+  "LMU450": {
+    "name": "Ekonomi och organisation | Economy and organisation",
+    "credits": 6,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL", "TKAUT"]
+  },
+  "EENX20": {
+    "name": "Examensarbete vid Elektroteknik | Degree project in Electrical engineering",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL", "TIMEL"]
+  },
+  "LMTX38": {
+    "name": "Examensarbete vid Data- och informationsteknik | Degree project in Computer science and engineering",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "TIN093": {
+    "name": "Algorithms",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPALG", "MPCAS", "MPCSN", "MPDSC", "MPEES"]
+  },
+  "TDA555": {
+    "name": "Introduction to functional programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT"]
+  },
+  "TDA548": {
+    "name": "Grundläggande programvaruutveckling | Introductory software development",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKITE"]
+  },
+  "TDA384": {
+    "name": "Principles of Concurrent Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT", "MPCSN", "MPHPC", "MPSOF", "TIDAL", "TKAUT", "TKITE"]
+  },
+  "EDA452": {
+    "name": "Grundläggande datorteknik | Introduction to computer engineering",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT", "TKTEM", "TKTFY"]
+  },
+  "EDA387": {
+    "name": "Computer networks",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPCSN", "MPHPC", "MPICT", "TIDAL"]
+  },
+  "EDA093": {
+    "name": "Operating systems",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "DAT555": {
+    "name": "Programmeringsteknik i Python | Programming in Python",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKIEK"]
+  },
+  "DAT400": {
+    "name": "High-performance parallel programming",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPHPC"]
+  },
+  "DAT246": {
+    "name": "Empirical software engineering",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPSOF", "MPCSN", "MPDSC", "MPHPC", "MPIDE"]
+  },
+  "DAT105": {
+    "name": "Computer architecture",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPHPC", "MPALG", "MPCSN", "MPEES"]
+  },
+  "DAT060": {
+    "name": "Logic in computer science",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPALG", "MPCSN"]
   }
 }
