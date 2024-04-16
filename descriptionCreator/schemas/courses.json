@@ -10,7 +10,7 @@
     }
   },
   "patternProperties": {
-    "^[A-Za-z]{3}[0-9]{3}$": {
+    "^[A-Za-z0-9]{6}$": {
       "description": "Code for the Course (e.g. 'ABC123')",
       "type": "object",
       "properties": {

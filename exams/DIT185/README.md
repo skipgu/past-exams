@@ -3,6 +3,8 @@ Welcome to the DIT185 - Software Analysis and Design, where we've compiled past 
 
 Here’s what we have so far:
 
-* 2018-06-01 Exam questions with no student answers so far
-* 2019-06-07 Exam questions with no student answers so far
-* 2021-06-04 Exam questions with no student answers so far
+|    Date    | Questions | Answers |
+|------------|-----------|---------|
+| 2018-06-01 | Yes       | No      |
+| 2019-06-07 | Yes       | No      |
+| 2021-06-04 | Yes       | No      |

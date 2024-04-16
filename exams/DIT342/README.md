@@ -3,14 +3,15 @@ Welcome to the DIT342 - Web Development, where we've compiled past exams and stu
 
 Here’s what we have so far:
 
-* 2019-04-24 Exam questions and student answers from one source
-* 2020-01-07 Exam questions and student answers from one source
-* 2020-10-26 Exam questions with no student answers yet 
-* 2021-01-05 Home exam question with no student answers yet
-* 2021-10-25 Student answers from one source
-* 2022-01-04 Student answers from one source
-* 2022-08-15 Student answers from one source
-* 2022-10-24 Exam questions with answers and student answers from one source
-* 2023-01-03 Student answers from one source
-* 2023-08-14 Student answers from one source
-
+|    Date    | Questions | Answers |   Notes   |
+|------------|-----------|---------|-----------|
+| 2019-04-24 | Yes       | Yes     |           |
+| 2020-01-07 | Yes       | Yes     |           |
+| 2020-10-26 | Yes       | No      |           |
+| 2021-01-05 | Yes       | No      | Home exam |
+| 2021-10-25 | No        | Yes     |           |
+| 2022-01-04 | No        | Yes     |           |
+| 2022-08-15 | No        | Yes     |           |
+| 2022-10-24 | Yes       | Yes     |           |
+| 2023-01-03 | No        | Yes     |           |
+| 2023-08-14 | No        | Yes     |           |

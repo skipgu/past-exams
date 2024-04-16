@@ -34,9 +34,9 @@ function checkExtraCourses(settings) {
 function countExams(settings) {
   for (const course in courses) {
     if (fs.existsSync(`./exams/${course}`)) {
-      const directories = fs.readdirSync(`./exams/${course}`, { withFileTypes: true });
+      const examDirectoryContent = fs.readdirSync(`./exams/${course}`, { withFileTypes: true });
 
-      const examCount = directories.filter(directory => directory.isDirectory() && /^\d{4}-\d{2}-\d{2}$/.test(directory.name)).length;
+    const examCount = examDirectoryContent.filter(content => content.isDirectory() && /^\d{4}-\d{2}-\d{2}$/.test(content.name)).length + examDirectoryContent.filter(content => content.isFile() && /^final_report-[a-zA-Z0-9]{6}-/.test(content.name)).length;
 
 
       courses[course].exams = examCount;
@@ -70,6 +70,7 @@ function populateProgrammes(settings) {
         if (!programmeOrders[programme]) { programmeOrders[programme] = []; }
         const terms = programmeOrders[programme].map(term => term.name);
         if (!terms.includes("")) {programmeOrders[programme].push({"name": "", courses: []})}
+        programmeOrders[programme] = [...programmeOrders[programme]].filter(item => item);
         const term = programmeOrders[programme].findIndex(term => term.name == "");
         programmeOrders[programme][term].courses.push(course);
         programmes[programme].courses.push(course);
@@ -113,7 +114,7 @@ function orderProgrammes(settings) {
     orderedProgrammes.push({programmeCode: programme, ...programmes[programme]});
   });
 
-  if (settings.extraCourses) {
+  if (settings.extraCourses && programmes.NONE) {
     orderedProgrammes.push({programmeCode: "NONE", ...programmes.NONE});
   }
   
@@ -135,7 +136,7 @@ function checkProgrammelessCourses(settings) {
       programmes.NONE.courses.push(course);
     }
   }
-  if (settings.extraCourses) {
+  if (settings.extraCourses && programmes.NONE) {
     programmeOrders.NONE = [{name: "", courses: programmes.NONE.courses}]
   }
 }

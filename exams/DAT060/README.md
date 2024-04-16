@@ -1,5 +1,5 @@
-# DAT060 - Logic in Computer Science
-Welcome to the DAT060 - Logic in Computer Science, where we've compiled past exams and student answers to assist in your preparation for this course.
+# DAT060 - Logic in computer science
+Welcome to the DAT060 - Logic in computer science, where we've compiled past exams and student answers to assist in your preparation for this course.
 
 Here’s what we have so far:
 

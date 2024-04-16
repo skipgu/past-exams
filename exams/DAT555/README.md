@@ -1,5 +1,5 @@
-# DAT555 - Programmeringsteknik : Python
-Welcome to the DAT555 - Programmeringsteknik : Python, where we've compiled past exams and student answers to assist in your preparation for this course.
+# DAT555 - Programmeringsteknik i Python
+Welcome to the DAT555 - Programmeringsteknik i Python, where we've compiled past exams and student answers to assist in your preparation for this course.
 
 Here’s what we have so far:
 

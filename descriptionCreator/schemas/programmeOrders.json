@@ -26,7 +26,7 @@
             "description": "Ordered list of course codes for this term",
             "items": {
               "type": "string",
-              "pattern": "^[A-Za-z]{3}[0-9]{3}$",
+              "pattern": "^[A-Za-z0-9]{6}$",
               "description": "Code for the course (e.g., 'ABC123')"
             }
           }
