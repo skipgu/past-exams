@@ -58,7 +58,7 @@
               "courseName": "Software Analysis and Design",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 3,
+              "courseExamCount": 9,
               "courseDirectory": "./exams/DIT185"
             }
           ]
@@ -278,7 +278,7 @@
               "courseName": "Software Analysis and Design",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 3,
+              "courseExamCount": 9,
               "courseDirectory": "./exams/DIT185"
             },
             {

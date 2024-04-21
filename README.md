@@ -53,7 +53,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT033 - Data Management](./exams/DIT033) 9 exams.
 - [DIT182 - Data Structures and Algorithms](./exams/DIT182) 24 exams.
-- [DIT185 - Software Analysis and Design](./exams/DIT185) 3 exams.
+- [DIT185 - Software Analysis and Design](./exams/DIT185) 9 exams.
 
 ***
 
@@ -132,7 +132,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT342 - Web Development](./exams/DIT342) 10 exams.
 - [DIT348 - Software Development Methodologies](./exams/DIT348) 10 exams.
-- [DIT185 - Software Analysis and Design](./exams/DIT185) 3 exams.
+- [DIT185 - Software Analysis and Design](./exams/DIT185) 9 exams.
 - [DIT401 - Operating Systems](./exams/DIT401) 1 exams.
 - [DIT093 - Algorithms](./exams/DIT093) 1 exams.
 - [DIT440 - Introduction to Functional Programming](./exams/DIT440) 2 exams.
