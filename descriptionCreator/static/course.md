@@ -1,1 +1,1 @@
-- [{{courseCode}} - {{courseName}}]({{courseDirectory}}){{examCount.md}}
+- [{{courseCode}} - {{courseName}}](https://github.com/skipgu/past-exams/tree/main/{{courseDirectory}}){{examCount.md}}

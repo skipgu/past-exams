@@ -29,11 +29,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Modify Permissions
-        run: chmod -R u+rwX,go+rX,go-w ./_site
-      - name: Insert JS snippet
-        run: |
-          find ./_site -name '*.html' -exec sed -i 's|</body>|<script>document.addEventListener("DOMContentLoaded", function() {const links = document.querySelectorAll("a[href^=\\"./exams/\\"]");links.forEach(link => {const code = link.getAttribute("href").slice(8);link.href = `https://github.com/skipgu/past-exams/tree/main/exams/${code}`;});});</script>\n</body>|g' {} +
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
