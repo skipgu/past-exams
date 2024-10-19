@@ -1,0 +1,801 @@
+{
+  "$schema": "../schemas/courses.json",
+  "DIT837": {
+    "name": "Bachelor Thesis in Software Engineering and Management",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT828": {
+    "name": "Project: Software Innovation",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT826": {
+    "name": "Software Engineering for Data-Intensive AI Applications",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT822": {
+    "name": "Software engineering for AI systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2ADS", "N1SOF"]
+  },
+  "DIT639": {
+    "name": "Cyber Physical Systems and Systems of Systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF", "N1SEM"]
+  },
+  "DIT636": {
+    "name": "Software Quality and Testing",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT356": {
+    "name": "Mini Project: Distributed Systems Development",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT342": {
+    "name": "Web Development",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1COS", "N1SOF"]
+  },
+  "DIT113": {
+    "name": "Mini Project: Systems Development",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF", "N1SEM"]
+  },
+  "DIT094": {
+    "name": "Mini Project: Team Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT023": {
+    "name": "Mathematical Foundations for Software Engineering",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT043": {
+    "name": "Object-Oriented Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT127": {
+    "name": "Web applications",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT235": {
+    "name": "Types for Programs and Proofs",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT084": {
+    "name": "Testing, Debugging and Verification",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2SOF"]
+  },
+  "DIT147": {
+    "name": "Technical writing in computer systems and networks",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS"]
+  },
+  "DIT107": {
+    "name": "Tangible interaction",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT056": {
+    "name": "Sustainable computing",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT863": {
+    "name": "Statistical Methods for Data Science",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2ADS"]
+  },
+  "DIT836": {
+    "name": "Startups and Industrial Software Product Management",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT265": {
+    "name": "Software Evolution Project",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2SOF"]
+  },
+  "DIT588": {
+    "name": "Software Evolution Project",
+    "credits": 15,
+    "level": "master",
+    "programmes": ["N2COS", "N2SOF"]
+  },
+  "DIT348": {
+    "name": "Software Development Methodologies",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1COS", "N1SOF"]
+  },
+  "DIT185": {
+    "name": "Software Analysis and Design",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1COS", "N1SOF", "N1SEM"]
+  },
+  "DIT046": {
+    "name": "Requirements and User Experience",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2ADS", "N1SOF", "N1SEM"]
+  },
+  "DIT162": {
+    "name": "Real-Time Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2GDT", "N1COS", "N2SOF"]
+  },
+  "DIT843": {
+    "name": "Quality Assurance and Testing",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2GDT", "N2SOF"]
+  },
+  "DIT231": {
+    "name": "Programming Language Technology",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2SOM"]
+  },
+  "DIT392": {
+    "name": "Principles of Concurrent Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N2MAT", "N2ADS", "N1MAT", "N1COS", "N2SOM", "N2SOF"]
+  },
+  "DIT362": {
+    "name": "Parallel Computer Architecture",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS"]
+  },
+  "DIT401": {
+    "name": "Operating Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT071": {
+    "name": "Network Security",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT075": {
+    "name": "Mobile Computing: Design and Implementation",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT203": {
+    "name": "Logic in Computer Science",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2MAT", "N2COS", "N1COS", "N1MAT"]
+  },
+  "DIT202": {
+    "name": "Logic in Computer Science",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2MAT", "N2COS", "N1COS", "N1MAT"]
+  },
+  "DIT101": {
+    "name": "Language-Based Security",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS"]
+  },
+  "DIT407": {
+    "name": "Introduction to Data science and AI",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2MAT", "N2COS", "N1MAT", "N1COS", "N2SOF"]
+  },
+  "DIT998": {
+    "name": "Interactive and linear storytelling with digital media",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2GDT"]
+  },
+  "DIT104": {
+    "name": "Interaction design methodology",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2GDT"]
+  },
+  "DIT109": {
+    "name": "Information Visualization",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2GDT"]
+  },
+  "DIT007": {
+    "name": "Human-Robot Interaction Design",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": []
+  },
+  "DIT096": {
+    "name": "Human-Computer Interaction",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2ADS", "N1COS", "N2SOF"]
+  },
+  "DIT431": {
+    "name": "High Performance Parallel Programming",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2SOF"]
+  },
+  "DIT493": {
+    "name": "Graphical Interfaces",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT098": {
+    "name": "Gameplay Design",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2GDT", "N2COS", "N2ADS", "N2GDT", "N2SOF"]
+  },
+  "DIT572": {
+    "name": "Game Engine Architecture",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS", "N2GDT"]
+  },
+  "DIT345": {
+    "name": "Fundamentals of Software Architecture",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT143": {
+    "name": "Functional Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2MAT", "N2COS", "N2ADS", "N1MAT", "N2SOF"]
+  },
+  "DIT272": {
+    "name": "Formal Methods in Software Development",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT323": {
+    "name": "Finite automata and formal languages",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2MAT", "N2COS", "N1MAT", "N1COS"]
+  },
+  "DIT246": {
+    "name": "Empirical Software Engineering",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2GDT", "N2SOF"]
+  },
+  "DIT983": {
+    "name": "Domain Specific Languages of Mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N2MAT", "N2ADS", "N1MAT", "N1COS"]
+  },
+  "DIT290": {
+    "name": "Distributed Systems, Advanced Course",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2SOM", "N1COS"]
+  },
+  "DIT240": {
+    "name": "Distributed Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT206": {
+    "name": "Discrete optimization",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2MAT", "N2COS", "N2ADS", "N1COS", "N2SOF"]
+  },
+  "DIT004": {
+    "name": "Digitalization in a changing world",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "DIT798": {
+    "name": "Digital design",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT633": {
+    "name": "Development of Embedded and Real-Time Systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT728": {
+    "name": "Design of AI systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2MAT", "N2COS", "N2ADS"]
+  },
+  "DIT414": {
+    "name": "Design and construction of digital games",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1COS", "N1SOF"]
+  },
+  "DIT173": {
+    "name": "Dependable Real-Time Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2GDT"]
+  },
+  "DIT622": {
+    "name": "Databases",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2MAT", "N2COS", "N2ADS", "N1MAT", "N1COS"]
+  },
+  "DIT182": {
+    "name": "Data Structures and Algorithms",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2MAT", "N2ADS", "N1MAT", "N1SOF", "N1SEM"]
+  },
+  "DIT033": {
+    "name": "Data Management",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2ADS", "N1SOF", "N1SEM"]
+  },
+  "DIT616": {
+    "name": "Data-driven support for cyber-physical systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS"]
+  },
+  "DIT468": {
+    "name": "Current Trends in Gaming",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2GDT"]
+  },
+  "DIT250": {
+    "name": "Cryptography",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1MAT", "N1COS"]
+  },
+  "DIT642": {
+    "name": "Computer Security",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT671": {
+    "name": "Computer Networks",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS"]
+  },
+  "DIT423": {
+    "name": "Computer communication",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT051": {
+    "name": "Computer Architecture",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2SEM", "N2GDT", "N2SOM", "N1COS"]
+  },
+  "DIT743": {
+    "name": "Computational Methods in Bioinformatics",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2MAT", "N2ADS", "N1COS"]
+  },
+  "DIT313": {
+    "name": "Computability",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N1COS"]
+  },
+  "DIT301": {
+    "name": "Compiler Construction",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2GDT", "N2SOF"]
+  },
+  "DIT038": {
+    "name": "Change Management in Software Development Organizations",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOB", "N1SEM"]
+  },
+  "DIT849": {
+    "name": "Behavioral Software Engineering",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2GDT", "N2SOF"]
+  },
+  "DIT291": {
+    "name": "Architectures for Scale-out Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2SOF"]
+  },
+  "DIT026": {
+    "name": "Applied mathematical thinking",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "DIT025": {
+    "name": "Applied mathematical thinking",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "DIT867": {
+    "name": "Applied Machine Learning",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2MAT", "N2ADS", "N1COS", "N2SOF"]
+  },
+  "DIT248": {
+    "name": "An introduction to Game Research",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["H2DHU", "N2GDT"]
+  },
+  "DIT382": {
+    "name": "Algorithms for Machine Learning and Inference",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": [ "N2COS", "N2MAT", "N2ADS", "N2GDT", "N2SOF"]
+  },
+  "DIT251": {
+    "name": "Algorithms, advanced course",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT093": {
+    "name": "Algorithms",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2MAT", "N2COS", "N2ADS", "N1MAT", "N1COS"]
+  },
+  "DIT257": {
+    "name": "Agile software project management",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT193": {
+    "name": "Agile Development Processes",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2GDT", "N2SOF"]
+  },
+  "DIT978": {
+    "name": "Advanced Software Engineering for AI/ML-Enabled Systems",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2ADS", "N2SOF"]
+  },
+  "DIT285": {
+    "name": "Advanced Requirements Engineering",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2GDT", "N2SOF"]
+  },
+  "DIT260": {
+    "name": "Advanced Functional Programming",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N1COS"]
+  },
+  "DIT930": {
+    "name": "Advanced databases",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["N2COS", "N2ADS", "N2SOF"]
+  },
+  "DIT227": {
+    "name": "Advanced Computer Graphics",
+    "level": "master",
+    "credits": 7.5,
+    "programmes": ["N2COS", "N2ADS", "N1COS", "N2GDT"]
+  },
+  "DIT440": {
+    "name": "Introduction to Functional Programming",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT670": {
+    "name": "Computer Networks",
+    "level": "master",
+    "credits": 7.5,
+    "programmes": ["N2COS"]
+  },
+  "DIT792": {
+    "name": "Grundläggande datorteknik",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT852": {
+    "name": "Introduction to Data Science",
+    "level": "master",
+    "credits": 7.5,
+    "programmes": ["N2ADS"]
+  },
+  "DIT962": {
+    "name": "Datastrukturer | Data Structures",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N2MAT", "N1COS", "N1MAT"]
+  },
+  "DIT980": {
+    "name": "Diskret matematik för Datavetare",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "DIT984": {
+    "name": "Diskret matematik för Datavetare",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["N1COS"]
+  },
+  "CLS050": {
+    "name": "Introduktion till kommunikation och ingenjörskompetens | Introduction to communication and engineering expertise",
+    "level": "bachelor",
+    "credits": 1.5,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LEU432": {
+    "name": "Grundläggande datorteknik | Introduction to computer engineering",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "LEU470": {
+    "name": "Elektriska kretsar | Electrical circuits",
+    "level": "bachelor",
+    "credits": 7.5,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "MVE675": {
+    "name": "Algebra | Linear algebra",
+    "level": "bachelor",
+    "credits": 6,
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LEU483": {
+    "name": "Computer programming | Computer programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "DAT390": {
+    "name": "Maskinorienterad programmering | Machine oriented programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "MVE535": {
+    "name": "Matematisk analys, del 1 | Introductory course in mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "LET627": {
+    "name": "Realtidssystem, grundkurs | Introduction to real time systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "LSP581": {
+    "name": "Projektkommunikation på engelska | Project communication in english",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "MVE545": {
+    "name": "Calculus, part 2 | Matematisk analys, del 2",
+    "credits": 3,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL"]
+  },
+  "DAT050": {
+    "name": "Objektorienterad programmering | Object oriented programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIMEL"]
+  },
+  "TMV211": {
+    "name": "",
+    "credits": -1,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "LEU237": {
+    "name": "",
+    "credits": -1,
+    "level": "bachelor",
+    "programmes": []
+  },
+  "TDA357": {
+    "name": "Inledande diskret matematik | Introduction to discrete mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TKDAT"]
+  },
+  "DAT055": {
+    "name": "Objektorienterade applikationer | Object oriented applications",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "SSY326": {
+    "name": "Ledarskap och personlig utveckling | Leadership and personal development",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "DAT495": {
+    "name": "Datastrukturer och algoritmer | Data structures and algorithms",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL"]
+  },
+  "FFR102": {
+    "name": "Hållbar utveckling - kritiska perspektiv och möjliga lösningar | Sustainable development - critical perspectives and possible solutions",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL"]
+  },
+  "DAT257": {
+    "name": "Agile software project management",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TKDAT"]
+  },
+  "LSP127": {
+    "name": "Kommunikation i yrkeslivet | Professional communication",
+    "credits": 1.5,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL"]
+  },
+  "LMU450": {
+    "name": "Ekonomi och organisation | Economy and organisation",
+    "credits": 6,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL", "TKAUT"]
+  },
+  "EENX20": {
+    "name": "Examensarbete vid Elektroteknik | Degree project in Electrical engineering",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["TIELL", "TIDAL", "TIMEL"]
+  },
+  "LMTX38": {
+    "name": "Examensarbete vid Data- och informationsteknik | Degree project in Computer science and engineering",
+    "credits": 15,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "TIN093": {
+    "name": "Algorithms",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPALG", "MPCAS", "MPCSN", "MPDSC", "MPEES"]
+  },
+  "TDA555": {
+    "name": "Introduction to functional programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT"]
+  },
+  "TDA548": {
+    "name": "Grundläggande programvaruutveckling | Introductory software development",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKITE"]
+  },
+  "TDA384": {
+    "name": "Principles of Concurrent Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT", "MPCSN", "MPHPC", "MPSOF", "TIDAL", "TKAUT", "TKITE"]
+  },
+  "EDA452": {
+    "name": "Grundläggande datorteknik | Introduction to computer engineering",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKDAT", "TKTEM", "TKTFY"]
+  },
+  "EDA387": {
+    "name": "Computer networks",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPCSN", "MPHPC", "MPICT", "TIDAL"]
+  },
+  "EDA093": {
+    "name": "Operating systems",
+    "credits": 4.5,
+    "level": "bachelor",
+    "programmes": ["TIDAL", "TIELL", "TIMEL"]
+  },
+  "DAT555": {
+    "name": "Programmeringsteknik i Python | Programming in Python",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["TKIEK"]
+  },
+  "DAT400": {
+    "name": "High-performance parallel programming",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPHPC"]
+  },
+  "DAT246": {
+    "name": "Empirical software engineering",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPSOF", "MPCSN", "MPDSC", "MPHPC", "MPIDE"]
+  },
+  "DAT105": {
+    "name": "Computer architecture",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPHPC", "MPALG", "MPCSN", "MPEES"]
+  },
+  "DAT060": {
+    "name": "Logic in computer science",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": ["MPALG", "MPCSN"]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema for defining the list of courses per term for each programme",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Path to the JSON schema definition",
+      "default": "./schemas/programmeOrders.json"
+    }
+  },
+  "patternProperties": {
+    "^[A-Za-z0-9]{5}$": {
+      "description": "Code for the programme (alphanumeric, 5 characters)",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "Details of a specific term within the programme",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the term (e.g., 'Term 1')"
+          },
+          "courses": {
+            "type": "array",
+            "description": "Ordered list of course codes for this term",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9]{6}$",
+              "description": "Code for the course (e.g., 'ABC123')"
+            }
+          }
+        },
+        "required": ["name", "courses"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["$schema"],
+  "additionalProperties": false
+}

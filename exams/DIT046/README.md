@@ -3,8 +3,7 @@ Welcome to the DIT046 - Requirements and User Experience, where we've compiled p
 
 Here’s what we have so far:
 
-* 2022-01-12 Exam questions with student answers from one source
-
-* 2022-04-13 Exam questions with student answers from two sources
-
-
+|    Date    | Questions | Answers |
+|------------|-----------|---------|
+| 2022-01-12 | Yes       | Yes     |
+| 2022-04-13 | Yes       | Yes     |

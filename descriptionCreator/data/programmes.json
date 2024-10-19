@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/programmes.json",
+  "N2ADS": {
+    "name": "Applied Data Science Master's Programme",
+    "language": "en"
+  },
+  "N2COS": {
+    "name": "Computer Science Master's Programme",
+    "language": "en"
+  },
+  "N1COS": {
+    "name": "Datavetenskapligt program | Computer Science, Bachelor's Programme",
+    "language": "se"
+  },
+  "N2DGL": {
+    "name": "Digital Leadership Master's Programme",
+    "language": "en"
+  },
+  "N2GDT": {
+    "name": "Game Design & Technology Master's Programme",
+    "language": "en"
+  },
+  "T2HAI": {
+    "name": "Human-centered Artificial Intelligence Master's Programme",
+    "language": "en"
+  },
+  "S2ITL": {
+    "name": "International Master's Programme in Information Technology and Learning",
+    "language": "en"
+  },
+  "N2LKI": {
+    "name": "Lärande, kommunikation och informationsteknologi, Magisterprogram |  Learning, Communication and Information Technology, Master's Programme",
+    "language": "se"
+  },
+  "H2LTG": {
+    "name": "Master in Language Technology",
+    "language": "en"
+  },
+  "N1SOF": {
+    "name": "Software Engineering and Management Bachelor's Programme",
+    "language": "en"
+  },
+  "N2SOF": {
+    "name": "Software Engineering and Management Master's Programme",
+    "language": "en"
+  },
+  "N1SYD": {
+    "name": "Systemvetenskap: samhällets digitalisering, kandidatprogram",
+    "language": "se"
+  },
+  "TIDAL": {
+    "name": "Datateknik, högskoleingenjör | Computer Engineering",
+    "language": "se"
+  },
+  "MPALG": {
+    "name": "Computer science - algorithms, languages and logic, MSc",
+    "language": "en"
+  },
+  "TKDAT": {
+    "name": "Datateknik, civilingenjör | Computer Science and Engineering",
+    "language": "se"
+  },
+  "TKITE": {
+    "name": "Informationsteknik, civilingenjör | Software Engineering",
+    "language": "se"
+  },
+  "TKIEK": {
+    "name": "Industriell ekonomi, civilingenjör | Industrial Engineering and Management",
+    "language": "se"
+  },
+  "MPHPC": {
+    "name": "High-performance computer systems, MSc",
+    "language": "en"
+  },
+  "TIELL": {
+    "name": "Elektroteknik, högskoleingenjör | Electrical Engineering",
+    "language": "se"
+  }
+}

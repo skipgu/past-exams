@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema for defining courses with their details",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Path to the JSON schema definition",
+      "default": "./schemas/courses.json"
+    }
+  },
+  "patternProperties": {
+    "^[A-Za-z0-9]{6}$": {
+      "description": "Code for the Course (e.g. 'ABC123')",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the course"
+        },
+        "credits": {
+          "type": "number",
+          "description": "Credits awarded for completing the course"
+        },
+        "level": {
+          "type": "string",
+          "enum": ["bachelor", "master"],
+          "description": "Level of the course (bachelor / master)"
+        },
+        "programmes": {
+          "type": "array",
+          "description": "List of programme codes associated with the course",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9]{5}$",
+            "description": "Code for the programme (alphanumeric, 5 characters)"
+          }
+        }
+      },
+      "required": ["name", "credits", "level", "programmes"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": ["$schema"]
+}
