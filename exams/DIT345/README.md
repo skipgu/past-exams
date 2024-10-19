@@ -10,3 +10,7 @@ Here’s what we have so far:
 | 2020-01-09 | Yes       | Yes     |              |
 | 2022-01-05 | Yes       | Yes     |              |
 | 2023-08-16 | Yes*      | Yes     | *:Incomplete |
+| 2023-10-27 | No        | Yes     |              |
+| 2024-01-04 | Yes       | No      |              |
+| 2024-08-21 | Yes       | No      |              |
+
