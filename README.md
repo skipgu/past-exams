@@ -65,9 +65,9 @@ Click to expand the list of courses for each programme.
 
 ### Term 3
 
-- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 5 exams.
+- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 8 exams.
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 10 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 11 exams.
 
 - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 
@@ -76,9 +76,9 @@ Click to expand the list of courses for each programme.
 
 ### Term 4
 
-- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 9 exams.
+- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 10 exams.
 
-- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 6 exams.
+- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 7 exams.
 
 
 ***
@@ -152,7 +152,7 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 10 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 11 exams.
 
 - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 
