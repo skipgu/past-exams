@@ -56,7 +56,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
 
-- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 24 exams.
+- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 
 - [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) 9 exams.
 
@@ -190,7 +190,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT431 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT431) 1 exams.
 
-- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 24 exams.
+- [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 
 - [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
 
