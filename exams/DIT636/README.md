@@ -11,4 +11,4 @@ Here’s what we have so far:
 | 2021-06-08 | Yes       | No      |               |
 | 2021-08-23 | Yes       | No      |               |
 | 2023-03-99 | Yes       | Yes     | Practice exam |
-| 2024-03-13 | No        | Yes     |               |
+| 2024-03-13 | Yes       | Yes     |               |
