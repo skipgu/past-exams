@@ -72,6 +72,18 @@
     "level": "bachelor",
     "programmes": ["N1SOF"]
   },
+  "DIT008": {
+    "name": "Discrete Mathematics",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
+  "DIT009": {
+    "name": "Fundamentals of Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
   "DIT127": {
     "name": "Web applications",
     "credits": 7.5,
