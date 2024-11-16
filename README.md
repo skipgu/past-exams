@@ -76,7 +76,7 @@ Click to expand the list of courses for each programme.
 
 ### Term 4
 
-- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 10 exams.
+- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 11 exams.
 
 - [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 7 exams.
 
