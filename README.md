@@ -85,7 +85,7 @@ Click to expand the list of courses for each programme.
 
 ### Term 5
 
-- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 7 exams.
 
 
 ***
