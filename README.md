@@ -67,7 +67,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 8 exams.
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 15 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 16 exams.
 
 - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 
