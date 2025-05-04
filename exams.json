@@ -17,6 +17,22 @@
               "courseDirectory": "exams/DIT043"
             },
             {
+              "courseCode": "DIT008",
+              "courseName": "Discrete Mathematics",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT008"
+            },
+            {
+              "courseCode": "DIT009",
+              "courseName": "Fundamentals of Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT009"
+            },
+            {
               "courseCode": "DIT023",
               "courseName": "Mathematical Foundations for Software Engineering",
               "courseCredit": 7.5,
