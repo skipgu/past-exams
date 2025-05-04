@@ -46,7 +46,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT023"
+              "courseDirectory": "exams/DIT023"
             },
             {
               "courseCode": "DIT046",
@@ -54,7 +54,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT046"
+              "courseDirectory": "exams/DIT046"
             }
           ]
         },
@@ -67,15 +67,15 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT033"
+              "courseDirectory": "exams/DIT033"
             },
             {
               "courseCode": "DIT182",
               "courseName": "Data Structures and Algorithms",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 24,
-              "courseDirectory": "./exams/DIT182"
+              "courseExamCount": 27,
+              "courseDirectory": "exams/DIT182"
             },
             {
               "courseCode": "DIT185",
@@ -83,7 +83,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT185"
+              "courseDirectory": "exams/DIT185"
             }
           ]
         },
@@ -95,16 +95,16 @@
               "courseName": "Fundamentals of Software Architecture",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT345"
+              "courseExamCount": 8,
+              "courseDirectory": "exams/DIT345"
             },
             {
               "courseCode": "DIT342",
               "courseName": "Web Development",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 10,
-              "courseDirectory": "./exams/DIT342"
+              "courseExamCount": 15,
+              "courseDirectory": "exams/DIT342"
             },
             {
               "courseCode": "DIT348",
@@ -112,7 +112,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 10,
-              "courseDirectory": "./exams/DIT348"
+              "courseDirectory": "exams/DIT348"
             }
           ]
         },
@@ -124,16 +124,16 @@
               "courseName": "Development of Embedded and Real-Time Systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT633"
+              "courseExamCount": 10,
+              "courseDirectory": "exams/DIT633"
             },
             {
               "courseCode": "DIT636",
               "courseName": "Software Quality and Testing",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 6,
-              "courseDirectory": "./exams/DIT636"
+              "courseExamCount": 7,
+              "courseDirectory": "exams/DIT636"
             }
           ]
         },
@@ -146,7 +146,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT822"
+              "courseDirectory": "exams/DIT822"
             }
           ]
         },
@@ -159,7 +159,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT822"
+              "courseDirectory": "exams/DIT822"
             }
           ]
         }
@@ -179,7 +179,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT431"
+              "courseDirectory": "exams/DIT431"
             }
           ]
         }
@@ -199,7 +199,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TIN093"
+              "courseDirectory": "exams/TIN093"
             },
             {
               "courseCode": "DAT105",
@@ -207,7 +207,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT105"
+              "courseDirectory": "exams/DAT105"
             },
             {
               "courseCode": "DAT060",
@@ -215,7 +215,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT060"
+              "courseDirectory": "exams/DAT060"
             }
           ]
         }
@@ -235,7 +235,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA384"
+              "courseDirectory": "exams/TDA384"
             },
             {
               "courseCode": "EDA387",
@@ -243,7 +243,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/EDA387"
+              "courseDirectory": "exams/EDA387"
             },
             {
               "courseCode": "DAT400",
@@ -251,7 +251,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DAT400"
+              "courseDirectory": "exams/DAT400"
             },
             {
               "courseCode": "DAT246",
@@ -259,7 +259,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT246"
+              "courseDirectory": "exams/DAT246"
             },
             {
               "courseCode": "DAT105",
@@ -267,7 +267,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT105"
+              "courseDirectory": "exams/DAT105"
             }
           ]
         }
@@ -286,8 +286,8 @@
               "courseName": "Web Development",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 10,
-              "courseDirectory": "./exams/DIT342"
+              "courseExamCount": 11,
+              "courseDirectory": "exams/DIT342"
             },
             {
               "courseCode": "DIT348",
@@ -295,7 +295,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 10,
-              "courseDirectory": "./exams/DIT348"
+              "courseDirectory": "exams/DIT348"
             },
             {
               "courseCode": "DIT185",
@@ -303,7 +303,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT185"
+              "courseDirectory": "exams/DIT185"
             },
             {
               "courseCode": "DIT401",
@@ -311,7 +311,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT401"
+              "courseDirectory": "exams/DIT401"
             },
             {
               "courseCode": "DIT093",
@@ -319,7 +319,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT093"
+              "courseDirectory": "exams/DIT093"
             },
             {
               "courseCode": "DIT440",
@@ -327,7 +327,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DIT440"
+              "courseDirectory": "exams/DIT440"
             },
             {
               "courseCode": "DIT792",
@@ -335,7 +335,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT792"
+              "courseDirectory": "exams/DIT792"
             },
             {
               "courseCode": "DIT962",
@@ -343,7 +343,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DIT962"
+              "courseDirectory": "exams/DIT962"
             },
             {
               "courseCode": "DIT980",
@@ -351,7 +351,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT980"
+              "courseDirectory": "exams/DIT980"
             },
             {
               "courseCode": "DIT984",
@@ -359,7 +359,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT984"
+              "courseDirectory": "exams/DIT984"
             }
           ]
         }
@@ -379,7 +379,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT822"
+              "courseDirectory": "exams/DIT822"
             },
             {
               "courseCode": "DIT046",
@@ -387,7 +387,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
-              "courseDirectory": "./exams/DIT046"
+              "courseDirectory": "exams/DIT046"
             },
             {
               "courseCode": "DIT401",
@@ -395,7 +395,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT401"
+              "courseDirectory": "exams/DIT401"
             },
             {
               "courseCode": "DIT431",
@@ -403,15 +403,15 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT431"
+              "courseDirectory": "exams/DIT431"
             },
             {
               "courseCode": "DIT182",
               "courseName": "Data Structures and Algorithms",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 24,
-              "courseDirectory": "./exams/DIT182"
+              "courseExamCount": 27,
+              "courseDirectory": "exams/DIT182"
             },
             {
               "courseCode": "DIT033",
@@ -419,7 +419,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 9,
-              "courseDirectory": "./exams/DIT033"
+              "courseDirectory": "exams/DIT033"
             },
             {
               "courseCode": "DIT093",
@@ -427,7 +427,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT093"
+              "courseDirectory": "exams/DIT093"
             },
             {
               "courseCode": "DIT852",
@@ -435,7 +435,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DIT852"
+              "courseDirectory": "exams/DIT852"
             }
           ]
         }
@@ -455,7 +455,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT401"
+              "courseDirectory": "exams/DIT401"
             },
             {
               "courseCode": "DIT431",
@@ -463,7 +463,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT431"
+              "courseDirectory": "exams/DIT431"
             },
             {
               "courseCode": "DIT093",
@@ -471,7 +471,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT093"
+              "courseDirectory": "exams/DIT093"
             },
             {
               "courseCode": "DIT670",
@@ -479,7 +479,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/DIT670"
+              "courseDirectory": "exams/DIT670"
             }
           ]
         }
@@ -499,7 +499,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT050"
+              "courseDirectory": "exams/DAT050"
             }
           ]
         },
@@ -512,7 +512,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA384"
+              "courseDirectory": "exams/TDA384"
             },
             {
               "courseCode": "EDA387",
@@ -520,7 +520,7 @@
               "courseCredit": 7.5,
               "courseLevel": "master",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/EDA387"
+              "courseDirectory": "exams/EDA387"
             },
             {
               "courseCode": "EDA093",
@@ -528,7 +528,7 @@
               "courseCredit": 4.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/EDA093"
+              "courseDirectory": "exams/EDA093"
             }
           ]
         }
@@ -548,7 +548,7 @@
               "courseCredit": 4.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/EDA093"
+              "courseDirectory": "exams/EDA093"
             }
           ]
         }
@@ -568,7 +568,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA555"
+              "courseDirectory": "exams/TDA555"
             },
             {
               "courseCode": "TDA384",
@@ -576,7 +576,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA384"
+              "courseDirectory": "exams/TDA384"
             },
             {
               "courseCode": "EDA452",
@@ -584,7 +584,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 1,
-              "courseDirectory": "./exams/EDA452"
+              "courseDirectory": "exams/EDA452"
             }
           ]
         }
@@ -604,7 +604,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/DAT555"
+              "courseDirectory": "exams/DAT555"
             }
           ]
         }
@@ -624,7 +624,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA548"
+              "courseDirectory": "exams/TDA548"
             },
             {
               "courseCode": "TDA384",
@@ -632,7 +632,7 @@
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 2,
-              "courseDirectory": "./exams/TDA384"
+              "courseDirectory": "exams/TDA384"
             }
           ]
         }
