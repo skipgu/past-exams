@@ -45,6 +45,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT043 - Object-Oriented Programming](./exams/DIT043) 5 exams.
 - [DIT008 - Discrete Mathematics](./exams/DIT008) 1 exams.
+- [DIT009 - Fundamentals of Programming](./exams/DIT009) 1 exams.
 - [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
 - [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
 
