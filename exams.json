@@ -13,8 +13,16 @@
               "courseName": "Object-Oriented Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
-              "courseDirectory": "exams/DIT043"
+              "courseExamCount": 6,
+              "courseDirectory": "./exams/DIT043"
+            },
+            {
+              "courseCode": "DIT044",
+              "courseName": "Object-Oriented Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT044"
             },
             {
               "courseCode": "DIT008",

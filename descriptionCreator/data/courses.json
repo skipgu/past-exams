@@ -72,6 +72,12 @@
     "level": "bachelor",
     "programmes": ["N1SOF"]
   },
+  "DIT044": {
+    "name": "Object-Oriented Programming",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
   "DIT008": {
     "name": "Discrete Mathematics",
     "credits": 7.5,
