@@ -43,7 +43,8 @@ Click to expand the list of courses for each programme.
 
 ### Term 1
 
-- [DIT043 - Object-Oriented Programming](./exams/DIT043) 5 exams.
+- [DIT043 - Object-Oriented Programming](./exams/DIT043) 6 exams.
+- [DIT044 - Object-Oriented Programming](./exams/DIT044) 1 exam.
 - [DIT008 - Discrete Mathematics](./exams/DIT008) 1 exams.
 - [DIT009 - Fundamentals of Programming](./exams/DIT009) 1 exams.
 - [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
@@ -64,9 +65,9 @@ Click to expand the list of courses for each programme.
 
 ### Term 3
 
-- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 8 exams.
+- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 9 exams.
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 15 exams.
+- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 16 exams.
 
 - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 

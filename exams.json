@@ -13,8 +13,16 @@
               "courseName": "Object-Oriented Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
-              "courseDirectory": "exams/DIT043"
+              "courseExamCount": 6,
+              "courseDirectory": "./exams/DIT043"
+            },
+            {
+              "courseCode": "DIT044",
+              "courseName": "Object-Oriented Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "./exams/DIT044"
             },
             {
               "courseCode": "DIT008",
@@ -87,7 +95,7 @@
               "courseName": "Fundamentals of Software Architecture",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 8,
+              "courseExamCount": 9,
               "courseDirectory": "exams/DIT345"
             },
             {
@@ -95,7 +103,7 @@
               "courseName": "Web Development",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 15,
+              "courseExamCount": 16,
               "courseDirectory": "exams/DIT342"
             },
             {
