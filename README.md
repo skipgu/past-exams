@@ -19,7 +19,7 @@ expectations, and excel in your academic journey.
 We're enabling students to **request** past exams for specific courses. If you
 can't find the exam you're looking for, simply fill in the form below and we'll
 do our best to provide you with the materials you need as soon as possible.
-> --> [**Request Past Exams**](https://tinyurl.com/skip-request-exams-cse)
+> --> [**Request Past Exams**](https://forms.gle/DWeioA8dv16oHEsg7)
 
 ### Explore and Contribute
 
