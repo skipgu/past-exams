@@ -168,6 +168,12 @@
     "level": "bachelor",
     "programmes": ["N2ADS", "N1SOF", "N1SEM"]
   },
+  "DIT047": {
+    "name": "Requirements Engineering",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
   "DIT162": {
     "name": "Real-Time Systems",
     "credits": 7.5,

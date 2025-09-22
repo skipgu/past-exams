@@ -21,7 +21,7 @@
               "courseName": "Object-Oriented Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
+              "courseExamCount": 2,
               "courseDirectory": "./exams/DIT044"
             },
             {
@@ -29,7 +29,7 @@
               "courseName": "Discrete Mathematics",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
+              "courseExamCount": 3,
               "courseDirectory": "./exams/DIT008"
             },
             {
@@ -37,7 +37,7 @@
               "courseName": "Fundamentals of Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
+              "courseExamCount": 2,
               "courseDirectory": "./exams/DIT009"
             },
             {
@@ -55,6 +55,14 @@
               "courseLevel": "bachelor",
               "courseExamCount": 5,
               "courseDirectory": "exams/DIT046"
+            },
+            {
+              "courseCode": "DIT047",
+              "courseName": "Requirements Engineering",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "exams/DIT047"
             }
           ]
         },
