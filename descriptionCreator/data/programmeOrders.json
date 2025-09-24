@@ -4,18 +4,18 @@
     {
       "name": "Term 1",
       "courses": [
-        "DIT043",
         "DIT008",
         "DIT009",
-        "DIT023",
         "DIT044",
-        "DIT046",
-        "DIT047"
+        "DIT023",
+        "DIT043",
+        "DIT046"
       ]
     },
     {
       "name": "Term 2",
       "courses": [
+        "DIT047",
         "DIT033",
         "DIT182",
         "DIT185",

@@ -9,22 +9,6 @@
           "termName": "Term 1",
           "courses": [
             {
-              "courseCode": "DIT043",
-              "courseName": "Object-Oriented Programming",
-              "courseCredit": 7.5,
-              "courseLevel": "bachelor",
-              "courseExamCount": 6,
-              "courseDirectory": "./exams/DIT043"
-            },
-            {
-              "courseCode": "DIT044",
-              "courseName": "Object-Oriented Programming",
-              "courseCredit": 7.5,
-              "courseLevel": "bachelor",
-              "courseExamCount": 2,
-              "courseDirectory": "./exams/DIT044"
-            },
-            {
               "courseCode": "DIT008",
               "courseName": "Discrete Mathematics",
               "courseCredit": 7.5,
@@ -41,6 +25,14 @@
               "courseDirectory": "./exams/DIT009"
             },
             {
+              "courseCode": "DIT044",
+              "courseName": "Object-Oriented Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 2,
+              "courseDirectory": "./exams/DIT044"
+            },
+            {
               "courseCode": "DIT023",
               "courseName": "Mathematical Foundations for Software Engineering",
               "courseCredit": 7.5,
@@ -49,13 +41,26 @@
               "courseDirectory": "exams/DIT023"
             },
             {
+              "courseCode": "DIT043",
+              "courseName": "Object-Oriented Programming",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 6,
+              "courseDirectory": "./exams/DIT043"
+            },
+            {
               "courseCode": "DIT046",
               "courseName": "Requirements and User Experience",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
               "courseExamCount": 5,
               "courseDirectory": "exams/DIT046"
-            },
+            }
+          ]
+        },
+        {
+          "termName": "Term 2",
+          "courses": [
             {
               "courseCode": "DIT047",
               "courseName": "Requirements Engineering",
@@ -63,12 +68,7 @@
               "courseLevel": "bachelor",
               "courseExamCount": 1,
               "courseDirectory": "exams/DIT047"
-            }
-          ]
-        },
-        {
-          "termName": "Term 2",
-          "courses": [
+            },
             {
               "courseCode": "DIT033",
               "courseName": "Data Management",
@@ -132,7 +132,7 @@
               "courseName": "Development of Embedded and Real-Time Systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 10,
+              "courseExamCount": 11,
               "courseDirectory": "exams/DIT633"
             },
             {
@@ -140,7 +140,7 @@
               "courseName": "Software Quality and Testing",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 7,
+              "courseExamCount": 9,
               "courseDirectory": "exams/DIT636"
             }
           ]
@@ -153,7 +153,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
+              "courseExamCount": 7,
               "courseDirectory": "exams/DIT822"
             }
           ]
@@ -166,7 +166,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
+              "courseExamCount": 7,
               "courseDirectory": "exams/DIT822"
             }
           ]
@@ -386,7 +386,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
+              "courseExamCount": 7,
               "courseDirectory": "exams/DIT822"
             },
             {

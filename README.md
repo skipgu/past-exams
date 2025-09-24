@@ -4,7 +4,7 @@
 </p><br>
 
 Welcome to the official `GitHub` repository that gathers **examination
-materials** for programmes at the **IT Faculty** of [Gothenburg
+materials** for programmes at the former **IT Faculty** of [Gothenburg
 University](https://www.gu.se/).
 
 ### What's Inside
@@ -23,7 +23,7 @@ do our best to provide you with the materials you need as soon as possible.
 
 ### Explore and Contribute
 
-As we move forward into the academic year of **2023/2024**, our primary focus
+As we move forward into the academic year of **2025/2026**, our primary focus
 will be to continuously expand this repository. We are committed to adding old
 exams for the current study periods, ensuring that you have access to the most
 up-to-date and relevant assessment materials to support your learning.
@@ -43,29 +43,29 @@ Click to expand the list of courses for each programme.
 
 ### Term 1
 
-- [DIT043 - Object-Oriented Programming](./exams/DIT043) 6 exams.
-  
-- [DIT044 - Object-Oriented Programming](./exams/DIT044) 2 exams.
-  
 - [DIT008 - Discrete Mathematics](./exams/DIT008) 3 exams.
   
 - [DIT009 - Fundamentals of Programming](./exams/DIT009) 2 exams.
   
-- [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
+- [DIT044 - Object-Oriented Programming](./exams/DIT044) 2 exams.
   
-- [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
+- **_OLD_** - [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
+
+- **_OLD_** - [DIT043 - Object-Oriented Programming](./exams/DIT043) 6 exams.
   
-- [DIT047 - Requirements Engineering](./exams/DIT047) 1 exam.
+- **_OLD_** - [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
 
 ***
 
 ### Term 2
 
+- [DIT047 - Requirements Engineering](./exams/DIT047) 1 exam.
+
 - [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
 
 - [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 
-- [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) 9 exams.
+- **_OLD_** - [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) 9 exams.
 
 
 ***
@@ -74,9 +74,9 @@ Click to expand the list of courses for each programme.
 
 - [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 9 exams.
 
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 16 exams.
+- **_OLD_** - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 16 exams.
 
-- [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
+- **_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 
 
 ***
@@ -99,7 +99,7 @@ Click to expand the list of courses for each programme.
 
 ### Term 6
 
-- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 7 exams.
 
 
 ***
@@ -189,7 +189,7 @@ Click to expand the list of courses for each programme.
 
 ### 
 
-- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 5 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 7 exams.
 
 - [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) 5 exams.
 
