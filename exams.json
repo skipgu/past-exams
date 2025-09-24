@@ -132,7 +132,7 @@
               "courseName": "Development of Embedded and Real-Time Systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 10,
+              "courseExamCount": 11,
               "courseDirectory": "exams/DIT633"
             },
             {
@@ -140,7 +140,7 @@
               "courseName": "Software Quality and Testing",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 11,
+              "courseExamCount": 9,
               "courseDirectory": "exams/DIT636"
             }
           ]
