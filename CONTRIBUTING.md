@@ -67,31 +67,33 @@ Final Reports:
 
 Before starting a new issue, check whether there isn't an opened issue with similar aim/feature/problem - if unsure, contact us.
 1. Use a Clear and Short Descriptive Title in the present tense
-  - Start in a verbs in present tense
-  - If you are adding some exams for a single course, mention it in the title, if a single exam, mention it in the title
-    - Add DIT009 Exams 2024
-    - Add DIT008 August 2025 Exam
-  - If you are adding exams in bulk, try to make the title unique (to avoid having "Add first-year exma" issues multiple times)- add a month/date (if multiple bulk upload issues in the same month) of upload
-    - Add first-year exams 12-2024
-    - Upload SEM exams 9-2025
-    - Add answers 9-2025
+    - Start in a verbs in present tense
+    - If you are adding some exams for a single course, mention it in the title, if a single exam, mention it in the title
+      - `Add DIT009 Exams 2024`
+      - `Add DIT008 August 2025 Exam`
+    - If you are adding exams in bulk, try to make the title unique (to avoid having "Add first-year exma" issues multiple times)- add a month/date (if multiple bulk upload issues in the same month) of upload
+      - `Add first-year exams 12-2024`
+      - `Upload SEM exams 9-2025`
+      - `Add answers 9-2025`
 2. Provide Relevant Details in the Body (Optional)
-  - If your issue is about a specific file, include a direct link to it.
-  - Describe the problem, suggestion, or question clearly.
-  - If you have a proposed solution, mention it.
-  - If reporting a bug, describe how to reproduce it if possible.
-  - If requesting a feature, explain the use-case or motivation.
-  - **Example:**
-   ```txt
-    Title: Fix DIT 636 2024-03-13 exam paper not opening
-    Description: Link to the exam file: [Exam PDF](https://github.com/skipgu/past-exams/blob/main/exams/DIT636/2024-03-13/Exam-DIT636-240313.pdf)
-   ```
+    - If your issue is about a specific file, include a direct link to it.
+    - Describe the problem, suggestion, or question clearly.
+    - If you have a proposed solution, mention it.
+    - If reporting a bug, describe how to reproduce it if possible.
+    - If requesting a feature, explain the use-case or motivation.
+    - **Example:**
+```txt
+Title:
+Fix DIT 636 2024-03-13 exam paper not opening
+Description:
+Link to the exam file: [Exam PDF](https://github.com/skipgu/past-exams/blob/main/exams/DIT636/2024-03-13/Exam-DIT636-240313.pdf)
+```
 3. Use Labels to Categorize Your Issue
-  - Apply relevant labels such as:
-  - This helps maintainers triage and prioritize issues.
+    - Apply relevant labels such as:
+    - This helps maintainers triage and prioritize issues.
 4. Assign and Mention Collaborators (Optional)
-  - If you want a specific person to look at the issue, mention them.
-  - Assign the issue if you have the necessary permissions.
+    - If you want a specific person to look at the issue, mention them.
+    - Assign the issue if you have the necessary permissions.
 
 ## Branches - Conventions
 1. Create a new branch from the issue
@@ -104,13 +106,50 @@ Before starting a new issue, check whether there isn't an opened issue with simi
 - **Be descriptive:** The branch name should make it clear what the branch is for.
 - **Keep it short:** Try to keep branch names concise, but not at the expense of clarity - they should be close to identical to the title of the issue.
 
-Examples
-- 32-add-contributing-md
-- 42-fix-breaking-pipeline
+**Examples**
+- `32-add-contributing-md`
+- `42-fix-breaking-pipeline`
 
 ## Commit Messages - Conventions
 
-## Pull Requests - Conventions
+- Keep commit messages concise but descriptive.
+- Reference related issues at the end of the message (e.g., `(#44)` )
+- If multiple authors were present, do not forget to Co-Author them (TBA)
+- Use [Conventional Commits](https://www.conventionalcommits.org/) format:
+  - `docs:` for documentation/new exams/changes in readme-s (e.g., `docs: add DIT044 03-2025 re-exam (#44)` )
+  - `feat:` for new functionalities
+  - `fix:` for bug fixes (e.g., `fix: update deploy job to install required artifacts` )
+  - ...
+- If needed, you can add a commit message description
+
+**Examples**
+- `docs: add issues and branches conventions (#32)`
+- `fix: recount exams data (#46)`
+
+**Notes**
+
+It is possible to change the commit message after commiting. Read more on [how here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message).
+
+Read more about Co-Authoring [here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors).
+
+
+## Pull Requests (PRs) - Conventions
+
+### Creating Pull Requests
+
+1. Create a PR with appropriate name, ideally close or identital to that of the issue.
+2. Choose the correct branch to the PR
+3. Write a short description of what has been added (e.g. which exams, solutions...)
+4. Choose an appropriate label, assign yourself to Assigners
+5. Request a review from one of these active maintainers - @tomiz87, @bimnett, @rawan-abid, or @michalspano (Or Contact us on the SKIP Discord Server)
+
+If PR passes through by a reviewer - nothing left to do, the reviewer oversees the rest
+
+If changes are needed - commit them and resolve/add comments, request review again
+
+### Reviewing Pull Requests 
+
+-- _**TO BE ADDED**_ --
 
 ---
 
