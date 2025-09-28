@@ -26,7 +26,7 @@ The following is the expected structure of this **monorepo** that compiles the p
 │   │   │   ├── Answer-courseCode-YYMMDD-official.pdf     # teacher answers - code official or official_partial
 │   │   │   ├── Combined-courseCode-YYMMDD-official.pdf   # teacher answers - code official or official_partial
 │   │   │   └── Combined-courseCode-YYMMDD-anonymCode.pdf # exams with student answers
-│   │   ├── final_report-courseCode-id-grade              # final repots
+│   │   ├── final_report-courseCode-id-grade              # final reports
 │   │   ├── ...                                           # other exams (NOT COUNTED)
 │   │   └── README.md                                     # overview for the course
 │   └── ...                                               # other courses
@@ -54,9 +54,107 @@ Final Reports:
 - final_report-DIT347-008-G.pdf                 # A student final report with grade G
 ```
 
+## What to Update with addition of a new Exam/Course/Programme
+
+### Adding an Exam
+
+- After adding an exam/answer, please add more info about it to the Course's README FILE. 
+- Update Courses' exam count on repo's [README.md](README.md).
+- Update Courses' exam count on repo's [exams.json](exams.json).
+
+### Adding a Course
+
+- Add a README.md file to the Course's folder
+    - A template of the Course's README.md file (Do not forget to fill out the course Code and Name in the README.md):
+
+```txt
+## courseCode - courseName
+Welcome to the courseCode - courseName, where we've compiled past exams and student answers to assist in your preparation for this course.
+
+Here’s what we have so far:
+
+|    Date    | Questions | Answers |   Notes   |
+|------------|-----------|---------|-----------|
+| YYYY-MM-DD | Yes       | Yes     |           |
+```
+- If it is a part of a program that is on the repo's [README.md](README.md), add it to the correct place (courses are usually ordered by terms/study periods they are in, in a given programme) and program. Indicate whether it is a course that is not being taught with prefix: `**_OLD_** - `
+    - Example `**_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.` 
+- Add the course to repo's [exams.json](exams.json) in the same order (courses are usually ordered by terms/study periods they are in, in a given programme) and correct programme as it is on the repo's [README.md](README.md).
+      - A template of the json block
+```json
+{
+  "courseCode": "",
+  "courseName": "",
+  "courseCredit": 7.5,
+  "courseLevel": "",
+  "courseExamCount": 30,
+  "courseDirectory": "./exams/courseCode"
+},
+```
+- Add the course to [descriptionCreator/data](descriptionCreator/data/), specifically: _**(POTENTIALLY COULD BE ADDED TO THE DESCRIPTIONCREATOR README)**_
+    - Add it to [courses.json](descriptionCreator/data/courses.json)
+        - Template:
+          ```json
+          "courseCode": {
+                "name": "",
+                "credits": 7.5,
+                "level": "",
+                "programmes": ["courseCode"]
+          },
+          ```
+    - Add it to the [programmeOrders.json](descriptionCreator/data/programmeOrders.json) in the correct order (courses are usually ordered by terms/study periods they are in, in a given programme) in all the programmes that the course is in.
+
+### Adding a Programme
+
+- Add the programme to the repo's [README.md](README.md), any additional programme needs to be added after the biggest programmes whose exams we have on the repo.
+    - Template:
+    ```txt
+    <details>
+    <summary><b>&#x1F447; programmeCode - Full Programme name</b></summary>
+    
+    ### 
+    
+    - [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
+    
+    - [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
+    
+    
+    ***
+    
+    </details>
+    ```
+- Add the programme to descriptionCreator's [programmes.json](descriptionCreator/data/programmes.json)
+    - Template:
+      ```json
+      "programmeCode": {
+        "name": "",
+        "language": "en/se"
+      },
+      ```
+- If a programme is getting more than one course and across multiple terms, it is need to add it to [programmeOrders.json](descriptionCreator/data/programmeOrders.json)
+    - Template:
+    ```
+    "programmeCode": [
+        {
+          "name": "Term 1 - Year 1",
+          "courses": [
+            "courseCode",
+            "courseCode"
+          ]
+        },
+        {
+          "name": "Term 2 - Year 1",
+          "courses": [
+            "courseCode",
+            "courseCode"
+          ]
+        },
+    ]
+    ```
+
 ## How to Contribute
 
-1. **Create an issue** with proper title and if needed, the desription.
+1. **Create an issue** with proper title and if needed, the description.
 2. **Create a new branch** for your changes from the issue.
 3. **Clone the repository** and checkout to your branch.
 4. **Commit your changes**, with proper commit message.
@@ -71,7 +169,7 @@ Before starting a new issue, check whether there isn't an opened issue with simi
     - If you are adding some exams for a single course, mention it in the title, if a single exam, mention it in the title
       - `Add DIT009 Exams 2024`
       - `Add DIT008 August 2025 Exam`
-    - If you are adding exams in bulk, try to make the title unique (to avoid having "Add first-year exma" issues multiple times)- add a month/date (if multiple bulk upload issues in the same month) of upload
+    - If you are adding exams in bulk, try to make the title unique (to avoid having "Add first-year exam" issues multiple times)- add a month/date (if multiple bulk upload issues in the same month) of upload
       - `Add first-year exams 12-2024`
       - `Upload SEM exams 9-2025`
       - `Add answers 9-2025`
@@ -128,7 +226,7 @@ Link to the exam file: [Exam PDF](https://github.com/skipgu/past-exams/blob/main
 
 **Notes**
 
-It is possible to change the commit message after commiting. Read more on [how here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message).
+It is possible to change the commit message after committing. Read more on [how here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message).
 
 Read more about Co-Authoring [here](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors).
 
@@ -137,7 +235,7 @@ Read more about Co-Authoring [here](https://docs.github.com/en/pull-requests/com
 
 ### Creating Pull Requests
 
-1. Create a PR with appropriate name, ideally close or identital to that of the issue.
+1. Create a PR with appropriate name, ideally close or identical to that of the issue.
 2. Choose the correct branch to the PR
 3. Write a short description of what has been added (e.g. which exams, solutions...)
 4. Choose an appropriate label, assign yourself to Assigners
