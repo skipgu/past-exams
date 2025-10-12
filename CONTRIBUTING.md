@@ -91,7 +91,7 @@ Here’s what we have so far:
   "courseDirectory": "./exams/courseCode"
 },
 ```
-- Add the course to [descriptionCreator/data](descriptionCreator/data/), specifically: _**(POTENTIALLY COULD BE ADDED TO THE DESCRIPTIONCREATOR README)**_
+- Add the course to [descriptionCreator/data](descriptionCreator/data/), specifically:
     - Add it to [courses.json](descriptionCreator/data/courses.json)
         - Template:
           ```json
@@ -247,7 +247,14 @@ If changes are needed - commit them and resolve/add comments, request review aga
 
 ### Reviewing Pull Requests 
 
--- _**TO BE ADDED**_ --
+- The reviewer should review and leave descriptive feedback if needed (changes can still be recommended).
+- If the reviewer finds the issue as done (the code and documentation needs no further changes):
+  - The reviewer should write a comment approving the PR (for example `LGTM`) and approve the PULL request.
+  - The reviewer merges the branch and deletes the merged branch.
+- If the reviewer finds the issue needs improvement:
+  - The reviewer should comment what specifically should be improved and if needed, get in contact with the person responsible.
+
+- **Merge conflict:** The reviewer should contact the developer who was responsible for the conflicting part of the PR, and resolve it together.
 
 ---
 
