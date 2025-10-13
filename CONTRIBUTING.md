@@ -235,9 +235,10 @@ Read more about Co-Authoring [here](https://docs.github.com/en/pull-requests/com
 
 ### Creating Pull Requests
 
-1. Create a PR with appropriate name, ideally close or identical to that of the issue.
+1. Create a PR with appropriate name, ideally close or identical to that of the issue. A number of the issue can be mentioned in brackets.
+    - E.g.: "Add Contributing Guidelines (#32)"
 2. Choose the correct branch to the PR
-3. Write a short description of what has been added (e.g. which exams, solutions...)
+3. Write a short description of what has been added (e.g. which exams, solutions, mention which issues will be closed and which other are related...)
 4. Choose an appropriate label, assign yourself to Assigners
 5. Request a review from one of these active maintainers - @tomiz87, @bimnett, @rawan-abid, or @michalspano (Or Contact us on the SKIP Discord Server)
 
