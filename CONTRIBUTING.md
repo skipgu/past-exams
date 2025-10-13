@@ -6,6 +6,8 @@ Note: We recommend studying/observing repository conventions and a few of the mo
 
 **_Only permitted users (by default SKIP Board Members; exceptions can be granted) can modify/delete/add new scripts/automatizatoins/new features or work on the main branch. All changes and PRs are reviewed by SKIP Board Members._**
 
+Please, follow the set conventions & rules to ensure clear **traceability**.
+
 ## Reporting Issues & Questions
 
 - Use [GitHub Issues](../../issues) to report mistakes or request new content.
@@ -94,63 +96,63 @@ Here’s what we have so far:
 - Add the course to [descriptionCreator/data](descriptionCreator/data/), specifically:
     - Add it to [courses.json](descriptionCreator/data/courses.json)
         - Template:
-          ```json
-          "courseCode": {
-                "name": "",
-                "credits": 7.5,
-                "level": "",
-                "programmes": ["courseCode"]
-          },
-          ```
+```json
+"courseCode": {
+      "name": "",
+      "credits": 7.5,
+      "level": "",
+      "programmes": ["courseCode"]
+},
+```
     - Add it to the [programmeOrders.json](descriptionCreator/data/programmeOrders.json) in the correct order (courses are usually ordered by terms/study periods they are in, in a given programme) in all the programmes that the course is in.
 
 ### Adding a Programme
 
 - Add the programme to the repo's [README.md](README.md), any additional programme needs to be added after the biggest programmes whose exams we have on the repo.
     - Template:
-    ```txt
-    <details>
-    <summary><b>&#x1F447; programmeCode - Full Programme name</b></summary>
-    
-    ### 
-    
-    - [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
-    
-    - [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
-    
-    
-    ***
-    
-    </details>
-    ```
+```txt
+<details>
+<summary><b>&#x1F447; programmeCode - Full Programme name</b></summary>
+
+### 
+
+- [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
+
+- [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
+
+
+***
+
+</details>
+```
 - Add the programme to descriptionCreator's [programmes.json](descriptionCreator/data/programmes.json)
     - Template:
-      ```json
-      "programmeCode": {
-        "name": "",
-        "language": "en/se"
-      },
-      ```
+```json
+"programmeCode": {
+  "name": "",
+  "language": "en/se"
+},
+```
 - If a programme is getting more than one course and across multiple terms, it is need to add it to [programmeOrders.json](descriptionCreator/data/programmeOrders.json)
     - Template:
-    ```
-    "programmeCode": [
-        {
-          "name": "Term 1 - Year 1",
-          "courses": [
-            "courseCode",
-            "courseCode"
-          ]
-        },
-        {
-          "name": "Term 2 - Year 1",
-          "courses": [
-            "courseCode",
-            "courseCode"
-          ]
-        },
-    ]
-    ```
+```
+"programmeCode": [
+    {
+      "name": "Term 1 - Year 1",
+      "courses": [
+        "courseCode",
+        "courseCode"
+      ]
+    },
+    {
+      "name": "Term 2 - Year 1",
+      "courses": [
+        "courseCode",
+        "courseCode"
+      ]
+    },
+]
+```
 
 ## How to Contribute
 
