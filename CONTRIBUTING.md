@@ -104,7 +104,7 @@ Here’s what we have so far:
       "programmes": ["courseCode"]
 },
 ```
-    - Add it to the [programmeOrders.json](descriptionCreator/data/programmeOrders.json) in the correct order (courses are usually ordered by terms/study periods they are in, in a given programme) in all the programmes that the course is in.
+- Add it to the [programmeOrders.json](descriptionCreator/data/programmeOrders.json) in the correct order (courses are usually ordered by terms/study periods they are in, in a given programme) in all the programmes that the course is in.
 
 ### Adding a Programme
 
