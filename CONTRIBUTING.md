@@ -58,11 +58,7 @@ Final Reports:
 
 ## What to Update with addition of a new Exam/Course/Programme
 
-### Adding an Exam
-
-- After adding an exam/answer, please add more info about it to the Course's README FILE. 
-- Update Courses' exam count on repo's [README.md](README.md).
-- Update Courses' exam count on repo's [exams.json](exams.json).
+After adding a new exam/course/programme, please follow our automatization instructions [here](SCRIPT_USAGE.md).
 
 ### Adding a Course
 
@@ -81,78 +77,6 @@ Here’s what we have so far:
 ```
 - If it is a part of a program that is on the repo's [README.md](README.md), add it to the correct place (courses are usually ordered by terms/study periods they are in, in a given programme) and program. Indicate whether it is a course that is not being taught with prefix: `**_OLD_** - `
     - Example `**_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.` 
-- Add the course to repo's [exams.json](exams.json) in the same order (courses are usually ordered by terms/study periods they are in, in a given programme) and correct programme as it is on the repo's [README.md](README.md).
-      - A template of the json block
-```json
-{
-  "courseCode": "",
-  "courseName": "",
-  "courseCredit": 7.5,
-  "courseLevel": "",
-  "courseExamCount": 30,
-  "courseDirectory": "./exams/courseCode"
-},
-```
-- Add the course to [descriptionCreator/data](descriptionCreator/data/), specifically:
-    - Add it to [courses.json](descriptionCreator/data/courses.json)
-        - Template:
-```json
-"courseCode": {
-      "name": "",
-      "credits": 7.5,
-      "level": "",
-      "programmes": ["courseCode"]
-},
-```
-- Add it to the [programmeOrders.json](descriptionCreator/data/programmeOrders.json) in the correct order (courses are usually ordered by terms/study periods they are in, in a given programme) in all the programmes that the course is in.
-
-### Adding a Programme
-
-- Add the programme to the repo's [README.md](README.md), any additional programme needs to be added after the biggest programmes whose exams we have on the repo.
-    - Template:
-```txt
-<details>
-<summary><b>&#x1F447; programmeCode - Full Programme name</b></summary>
-
-### 
-
-- [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
-
-- [courseCode - Full Course Name](https://github.com/skipgu/past-exams/tree/main/exams/courseCode) x exams.
-
-
-***
-
-</details>
-```
-- Add the programme to descriptionCreator's [programmes.json](descriptionCreator/data/programmes.json)
-    - Template:
-```json
-"programmeCode": {
-  "name": "",
-  "language": "en/se"
-},
-```
-- If a programme is getting more than one course and across multiple terms, it is need to add it to [programmeOrders.json](descriptionCreator/data/programmeOrders.json)
-    - Template:
-```
-"programmeCode": [
-    {
-      "name": "Term 1 - Year 1",
-      "courses": [
-        "courseCode",
-        "courseCode"
-      ]
-    },
-    {
-      "name": "Term 2 - Year 1",
-      "courses": [
-        "courseCode",
-        "courseCode"
-      ]
-    },
-]
-```
 
 ## How to Contribute
 
@@ -160,8 +84,9 @@ Here’s what we have so far:
 2. **Create a new branch** for your changes from the issue.
 3. **Clone the repository** and checkout to your branch.
 4. **Commit your changes**, with proper commit message.
-5. **Wait for the actions to run** to ensure nothing is broken.
-6. **Open a pull request** with a clear title, description & labels.
+5. **Run our automatization script** to ensure the data is correctly added, counted and formatted.
+6. **Wait for the actions to run** to ensure nothing is broken.
+7. **Open a pull request** with a clear title, description & labels.
 
 ## Issues - Conventions
 
