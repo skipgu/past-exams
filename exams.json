@@ -21,7 +21,7 @@
               "courseName": "Fundamentals of Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
+              "courseExamCount": 3,
               "courseDirectory": "./exams/DIT009"
             },
             {
@@ -29,7 +29,7 @@
               "courseName": "Object-Oriented Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
+              "courseExamCount": 3,
               "courseDirectory": "./exams/DIT044"
             },
             {
@@ -103,7 +103,7 @@
               "courseName": "Fundamentals of Software Architecture",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 11,
               "courseDirectory": "exams/DIT345"
             },
             {
@@ -111,7 +111,7 @@
               "courseName": "Web Development",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 16,
+              "courseExamCount": 18,
               "courseDirectory": "exams/DIT342"
             },
             {
@@ -153,7 +153,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 7,
+              "courseExamCount": 10,
               "courseDirectory": "exams/DIT822"
             }
           ]
@@ -166,7 +166,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 7,
+              "courseExamCount": 10,
               "courseDirectory": "exams/DIT822"
             }
           ]
