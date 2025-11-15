@@ -120,6 +120,18 @@ validate_filename() {
 # Function to check if README.md exists in course directory
 check_course_readme() {
     local course_dir="$1"
+    
+    # Ensure course_dir starts with ./
+    if [[ ! "$course_dir" =~ ^\. ]]; then
+        course_dir="./$course_dir"
+    fi
+    
+    # Skip the test for the submodule DIT182 (corner case)
+    if [[ "$course_dir" == *DIT182* ]]; then
+        info "Skipping README.md check for $course_dir (matched DIT182)"
+        return 0
+    fi
+    
     local readme="$course_dir/README.md"
     
     if [[ ! -f "$readme" ]]; then
@@ -144,6 +156,8 @@ EOF
             ((FIXED++))
         fi
         return 1
+    else
+        success "Found README.md in $course_dir"
     fi
     return 0
 }
