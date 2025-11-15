@@ -13,7 +13,7 @@
               "courseName": "Discrete Mathematics",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 3,
+              "courseExamCount": 4,
               "courseDirectory": "./exams/DIT008"
             },
             {
@@ -21,7 +21,7 @@
               "courseName": "Fundamentals of Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
+              "courseExamCount": 4,
               "courseDirectory": "./exams/DIT009"
             },
             {
@@ -29,7 +29,7 @@
               "courseName": "Object-Oriented Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
+              "courseExamCount": 3,
               "courseDirectory": "./exams/DIT044"
             },
             {
@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 12,
               "courseDirectory": "exams/DIT033"
             },
             {
@@ -103,15 +103,23 @@
               "courseName": "Fundamentals of Software Architecture",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 11,
               "courseDirectory": "exams/DIT345"
+            },
+            {
+              "courseCode": "DIT357",
+              "courseName": "Distributed Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "exams/DIT357"
             },
             {
               "courseCode": "DIT342",
               "courseName": "Web Development",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 16,
+              "courseExamCount": 18,
               "courseDirectory": "exams/DIT342"
             },
             {
@@ -153,7 +161,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 7,
+              "courseExamCount": 10,
               "courseDirectory": "exams/DIT822"
             }
           ]
@@ -166,7 +174,7 @@
               "courseName": "Software engineering for AI systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 7,
+              "courseExamCount": 10,
               "courseDirectory": "exams/DIT822"
             }
           ]

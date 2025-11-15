@@ -14,3 +14,6 @@ Here’s what we have so far:
 | 2022-03-14 | Yes       | Yes     |           |
 | 2022-06-09 | Yes       | Yes     |           |
 | 2022-08-17 | Yes       | Yes     |           |
+| 2024-03-11 | Yes       | No      |           |
+| 2024-06-05 | Yes       | No      |           |
+| 2024-08-21 | Yes       | No      |           |

@@ -162,6 +162,12 @@
     "level": "bachelor",
     "programmes": ["N1COS", "N1SOF", "N1SEM"]
   },
+  "DIT357": {
+    "name": "Distributed Systems",
+    "credits": 7.5,
+    "level": "bachelor",
+    "programmes": ["N1SOF"]
+  },
   "DIT046": {
     "name": "Requirements and User Experience",
     "credits": 7.5,
