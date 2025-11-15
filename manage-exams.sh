@@ -304,7 +304,12 @@ generate_programme_with_terms() {
                 # Only collect courses with at least 1 exam
                 if [[ $exam_count -gt 0 ]]; then
                     local course_name=$(get_course_name_from_json "$course_code")
-                    term_courses+="- [$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
+                    local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./descriptionCreator/data/courses.json" 2>/dev/null)
+                    local old_prefix=""
+                    if [[ "$is_discontinued" == "true" ]]; then
+                        old_prefix="**_OLD_** "
+                    fi
+                    term_courses+="- ${old_prefix}[$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
                 fi
             fi
         done <<< "$courses"
@@ -359,7 +364,12 @@ generate_programme_simple() {
             # Only collect courses with at least 1 exam
             if [[ $exam_count -gt 0 ]]; then
                 local course_name=$(get_course_name_from_json "$course_code")
-                course_entries+="- [$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
+                local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./descriptionCreator/data/courses.json" 2>/dev/null)
+                local old_prefix=""
+                if [[ "$is_discontinued" == "true" ]]; then
+                    old_prefix="**_OLD_** "
+                fi
+                course_entries+="- ${old_prefix}[$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
             fi
         fi
     done <<< "$courses"
