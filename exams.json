@@ -13,7 +13,7 @@
               "courseName": "Discrete Mathematics",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 3,
+              "courseExamCount": 4,
               "courseDirectory": "./exams/DIT008"
             },
             {
@@ -21,7 +21,7 @@
               "courseName": "Fundamentals of Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 3,
+              "courseExamCount": 4,
               "courseDirectory": "./exams/DIT009"
             },
             {
@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 12,
               "courseDirectory": "exams/DIT033"
             },
             {
@@ -105,6 +105,14 @@
               "courseLevel": "bachelor",
               "courseExamCount": 11,
               "courseDirectory": "exams/DIT345"
+            },
+            {
+              "courseCode": "DIT357",
+              "courseName": "Distributed Systems",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 1,
+              "courseDirectory": "exams/DIT357"
             },
             {
               "courseCode": "DIT342",
