@@ -45,20 +45,20 @@ Click to expand the list of courses for each programme.
 - [DIT008 - Discrete Mathematics](https://github.com/skipgu/past-exams/tree/main/exams/DIT008) (3 exams)
 - [DIT009 - Fundamentals of Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT009) (2 exams)
 - [DIT044 - Object-Oriented Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT044) (2 exams)
-- [DIT023 - Mathematical Foundations for Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT023) (9 exams)
-- [DIT043 - Object-Oriented Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043) (6 exams)
-- [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) (5 exams)
+- **_OLD_** [DIT023 - Mathematical Foundations for Software Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT023) (9 exams)
+- **_OLD_** [DIT043 - Object-Oriented Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT043) (6 exams)
+- **_OLD_** [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) (5 exams)
 
 ### Term 2
 
 - [DIT047 - Requirements Engineering](https://github.com/skipgu/past-exams/tree/main/exams/DIT047) (1 exams)
 - [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) (9 exams)
-- [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) (9 exams)
+- **_OLD_** [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) (9 exams)
 
 ### Term 3
 
 - [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) (9 exams)
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) (16 exams)
+- **_OLD_** [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) (16 exams)
 
 ### Term 4
 
@@ -116,8 +116,8 @@ Click to expand the list of courses for each programme.
 <summary><b>&#x1F447; N1COS - Datavetenskapligt program | Computer Science, Bachelor's Programme</b></summary>
 
 - [DIT093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT093) (1 exams)
-- [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) (9 exams)
-- [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) (16 exams)
+- **_OLD_** [DIT185 - Software Analysis and Design](https://github.com/skipgu/past-exams/tree/main/exams/DIT185) (9 exams)
+- **_OLD_** [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) (16 exams)
 - [DIT401 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT401) (1 exams)
 - [DIT440 - Introduction to Functional Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT440) (2 exams)
 - [DIT792 - Grundläggande datorteknik](https://github.com/skipgu/past-exams/tree/main/exams/DIT792) (1 exams)
@@ -133,7 +133,7 @@ Click to expand the list of courses for each programme.
 <summary><b>&#x1F447; N2ADS - Applied Data Science Master's Programme</b></summary>
 
 - [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) (9 exams)
-- [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) (5 exams)
+- **_OLD_** [DIT046 - Requirements and User Experience](https://github.com/skipgu/past-exams/tree/main/exams/DIT046) (5 exams)
 - [DIT093 - Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT093) (1 exams)
 - [DIT401 - Operating Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT401) (1 exams)
 - [DIT431 - High Performance Parallel Programming](https://github.com/skipgu/past-exams/tree/main/exams/DIT431) (1 exams)

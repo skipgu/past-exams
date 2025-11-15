@@ -46,6 +46,7 @@
     "name": "Web Development",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N1COS", "N1SOF"]
   },
   "DIT113": {
@@ -64,12 +65,14 @@
     "name": "Mathematical Foundations for Software Engineering",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N1SOF"]
   },
   "DIT043": {
     "name": "Object-Oriented Programming",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N1SOF"]
   },
   "DIT044": {
@@ -154,12 +157,14 @@
     "name": "Software Development Methodologies",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N1COS", "N1SOF"]
   },
   "DIT185": {
     "name": "Software Analysis and Design",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N1COS", "N1SOF", "N1SEM"]
   },
   "DIT357": {
@@ -172,6 +177,7 @@
     "name": "Requirements and User Experience",
     "credits": 7.5,
     "level": "bachelor",
+    "discontinued": true,
     "programmes": ["N2ADS", "N1SOF", "N1SEM"]
   },
   "DIT047": {
