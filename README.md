@@ -42,11 +42,11 @@ Click to expand the list of courses for each programme.
 
 ### Term 1
 
-- [DIT008 - Discrete Mathematics](./exams/DIT008) 3 exams.
+- [DIT008 - Discrete Mathematics](./exams/DIT008) 4 exams.
   
-- [DIT009 - Fundamentals of Programming](./exams/DIT009) 2 exams.
+- [DIT009 - Fundamentals of Programming](./exams/DIT009) 4 exams.
   
-- [DIT044 - Object-Oriented Programming](./exams/DIT044) 2 exams.
+- [DIT044 - Object-Oriented Programming](./exams/DIT044) 3 exams.
   
 - **_OLD_** - [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) 9 exams.
 
@@ -60,7 +60,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT047 - Requirements Engineering](./exams/DIT047) 1 exam.
 
-- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 9 exams.
+- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 12 exams.
 
 - [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 
@@ -71,9 +71,11 @@ Click to expand the list of courses for each programme.
 
 ### Term 3
 
-- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 9 exams.
+- [DIT357 - Distributed Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT357) 1 exams.
 
-- **_OLD_** - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 16 exams.
+- [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 11 exams.
+
+- **_OLD_** - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 18 exams.
 
 - **_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
 
@@ -91,7 +93,7 @@ Click to expand the list of courses for each programme.
 
 ### Term 5
 
-- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 7 exams.
+- [DIT822 - Software engineering for AI systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT822) 10 exams.
 
 
 ***
