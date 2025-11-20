@@ -1,0 +1,18 @@
+name: Scan exams
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run script
+      run: ./manage-exams.sh scan

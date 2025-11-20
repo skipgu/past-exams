@@ -1,13 +1,16 @@
 name: Build Jekyll Site
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Scan exams"]
+    types: ["completed"]
 
 permissions:
   contents: read
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
