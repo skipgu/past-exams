@@ -827,5 +827,11 @@
     "credits": 7.5,
     "level": "master",
     "programmes": ["MPALG", "MPCSN"]
+  },
+  "TIA315": {
+    "name": "Teknologi | Technology",
+    "credits": 7.5,
+    "level": "master",
+    "programmes": []
   }
 }
