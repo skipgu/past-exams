@@ -148,7 +148,7 @@
               "courseName": "Software Quality and Testing",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 12,
               "courseDirectory": "exams/DIT636"
             }
           ]
@@ -274,7 +274,7 @@
               "courseName": "Empirical software engineering",
               "courseCredit": 7.5,
               "courseLevel": "master",
-              "courseExamCount": 2,
+              "courseExamCount": 4,
               "courseDirectory": "exams/DAT246"
             },
             {
