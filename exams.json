@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 12,
+              "courseExamCount": 14,
               "courseDirectory": "exams/DIT033"
             },
             {
@@ -140,7 +140,7 @@
               "courseName": "Development of Embedded and Real-Time Systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 11,
+              "courseExamCount": 14,
               "courseDirectory": "exams/DIT633"
             },
             {
