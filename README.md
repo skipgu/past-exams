@@ -60,7 +60,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT047 - Requirements Engineering](./exams/DIT047) 1 exam.
 
-- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 12 exams.
+- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 16 exams.
 
 - [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 
@@ -75,6 +75,8 @@ Click to expand the list of courses for each programme.
 
 - [DIT345 - Fundamentals of Software Architecture](https://github.com/skipgu/past-exams/tree/main/exams/DIT345) 11 exams.
 
+- [DIT096 - Human-Computer Interaction](https://github.com/skipgu/past-exams/tree/main/exams/DIT096) 3 exams.
+
 - **_OLD_** - [DIT342 - Web Development](https://github.com/skipgu/past-exams/tree/main/exams/DIT342) 18 exams.
 
 - **_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.
@@ -84,9 +86,9 @@ Click to expand the list of courses for each programme.
 
 ### Term 4
 
-- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 11 exams.
+- [DIT633 - Development of Embedded and Real-Time Systems](https://github.com/skipgu/past-exams/tree/main/exams/DIT633) 14 exams.
 
-- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 9 exams.
+- [DIT636 - Software Quality and Testing](https://github.com/skipgu/past-exams/tree/main/exams/DIT636) 12 exams.
 
 
 ***
@@ -146,7 +148,7 @@ Click to expand the list of courses for each programme.
 
 - [DAT400 - High-performance parallel programming](https://github.com/skipgu/past-exams/tree/main/exams/DAT400) 1 exams.
 
-- [DAT246 - Empirical software engineering](https://github.com/skipgu/past-exams/tree/main/exams/DAT246) 2 exams.
+- [DAT246 - Empirical software engineering](https://github.com/skipgu/past-exams/tree/main/exams/DAT246) 4 exams.
 
 - [DAT105 - Computer architecture](https://github.com/skipgu/past-exams/tree/main/exams/DAT105) 2 exams.
 

@@ -280,7 +280,7 @@
     "name": "Human-Computer Interaction",
     "credits": 7.5,
     "level": "bachelor",
-    "programmes": ["N2ADS", "N1COS", "N2SOF"]
+    "programmes": ["N2ADS", "N1COS", "N1SOF"]
   },
   "DIT431": {
     "name": "High Performance Parallel Programming",

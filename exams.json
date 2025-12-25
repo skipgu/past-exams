@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 14,
+              "courseExamCount": 16,
               "courseDirectory": "exams/DIT033"
             },
             {
@@ -113,6 +113,14 @@
               "courseLevel": "bachelor",
               "courseExamCount": 1,
               "courseDirectory": "exams/DIT357"
+            },
+            {
+              "courseCode": "DIT096",
+              "courseName": "Human-Computer Interaction",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 3,
+              "courseDirectory": "exams/DIT096"
             },
             {
               "courseCode": "DIT342",
