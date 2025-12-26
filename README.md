@@ -52,7 +52,7 @@ Click to expand the list of courses for each programme.
 
 - **_OLD_** - [DIT043 - Object-Oriented Programming](./exams/DIT043) 6 exams.
   
-- **_OLD_** - [DIT046 - Requirements and User Experience](./exams/DIT046) 5 exams.
+- **_OLD_** - [DIT046 - Requirements and User Experience](./exams/DIT046) 6 exams.
 
 ***
 
@@ -60,7 +60,7 @@ Click to expand the list of courses for each programme.
 
 - [DIT047 - Requirements Engineering](./exams/DIT047) 1 exam.
 
-- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 16 exams.
+- [DIT033 - Data Management](https://github.com/skipgu/past-exams/tree/main/exams/DIT033) 17 exams.
 
 - [DIT182 - Data Structures and Algorithms](https://github.com/skipgu/past-exams/tree/main/exams/DIT182) 27 exams.
 

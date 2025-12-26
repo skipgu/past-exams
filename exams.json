@@ -53,7 +53,7 @@
               "courseName": "Requirements and User Experience",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
+              "courseExamCount": 6,
               "courseDirectory": "exams/DIT046"
             }
           ]
@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 16,
+              "courseExamCount": 17,
               "courseDirectory": "exams/DIT033"
             },
             {
