@@ -53,7 +53,7 @@
               "courseName": "Requirements and User Experience",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 5,
+              "courseExamCount": 6,
               "courseDirectory": "exams/DIT046"
             }
           ]
@@ -74,7 +74,7 @@
               "courseName": "Data Management",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 12,
+              "courseExamCount": 17,
               "courseDirectory": "exams/DIT033"
             },
             {
@@ -115,6 +115,14 @@
               "courseDirectory": "exams/DIT357"
             },
             {
+              "courseCode": "DIT096",
+              "courseName": "Human-Computer Interaction",
+              "courseCredit": 7.5,
+              "courseLevel": "bachelor",
+              "courseExamCount": 3,
+              "courseDirectory": "exams/DIT096"
+            },
+            {
               "courseCode": "DIT342",
               "courseName": "Web Development",
               "courseCredit": 7.5,
@@ -140,7 +148,7 @@
               "courseName": "Development of Embedded and Real-Time Systems",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 11,
+              "courseExamCount": 14,
               "courseDirectory": "exams/DIT633"
             },
             {
@@ -148,7 +156,7 @@
               "courseName": "Software Quality and Testing",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 9,
+              "courseExamCount": 12,
               "courseDirectory": "exams/DIT636"
             }
           ]
@@ -274,7 +282,7 @@
               "courseName": "Empirical software engineering",
               "courseCredit": 7.5,
               "courseLevel": "master",
-              "courseExamCount": 2,
+              "courseExamCount": 4,
               "courseDirectory": "exams/DAT246"
             },
             {

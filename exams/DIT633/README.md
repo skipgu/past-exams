@@ -16,3 +16,6 @@ Here’s what we have so far:
 | 2023-08-99 | Yes       | No      | Exact date unkown  |
 | 2024-03-12 | Yes       | Yes     |                    |
 | 2024-06-07 | Yes       | No      |                    |
+| 2025-03-18 | Yes       | Yes     |                    |
+| 2025-06-12 | Yes       | Yes     |                    |
+| 2025-08-29 | Yes       | Yes     |                    |
