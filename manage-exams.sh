@@ -17,6 +17,8 @@ ERRORS=0
 WARNINGS=0
 FIXED=0
 
+WEB_MODE=0 # global flag to use absolute link prefix for files (default: off)
+
 # Function to print colored messages
 error() { echo -e "${RED}✗ ERROR: $1${NC}" >&2; ((ERRORS++)); }
 warning() { echo -e "${YELLOW}⚠ WARNING: $1${NC}"; ((WARNINGS++)); }
@@ -75,8 +77,8 @@ validate_filename() {
         fi
     fi
     
-    # - A student (anonymous) code is of the format: `NNN` or `NNN_CCC` where D is
-    # digit and C letter; the course code prefix is removed for simplicify (adds
+    # - A student (anonymous) code is of the format: `NNNN` or `NNNN_CCC` where N is
+    # digit and C letter; the course code prefix is removed for simplicify (it adds
     # no information to students; the course code is visible already).
     # - A course code is of the form CCCNNN or CCCNNN_CCCNNN if there's an
     # alternative course code name (e.g. DIT045_DAT355).
@@ -88,7 +90,7 @@ validate_filename() {
             fi
             ;;
         Answer-*.pdf)
-            if [[ ! "$basename" =~ ^Answer-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}-(official|official_partial|[0-9]{3}|[0-9]{3}_[A-Z]{3})\.pdf$ ]]; then
+            if [[ ! "$basename" =~ ^Answer-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}-(official|official_partial|[0-9]{4}|[0-9]{4}_[A-Z]{3})\.pdf$ ]]; then
                 error "Invalid answer filename: $basename (expected Answer-CourseCode-YYMMDD-{official|official_partial|code}.pdf)"
                 return 1
             fi
@@ -304,11 +306,17 @@ generate_programme_with_terms() {
     fi
 }
 
+REPO_PERMALINK_DOCS="https://github.com/skipgu/past-exams/tree/main/exams"
+
 # Function to generate programme section without term ordering
 generate_programme_simple() {
     local prog_code="$1"
     local prog_name="$2"
     local exams_dir="$3"
+
+    # For web, use permalink prefix to repo; otherwise, use local (file) link
+    local link="."
+    if [[ $WEB_MODE -gt 0 ]]; then link="$REPO_PERMALINK_DOCS"; fi
     
     # Get courses for this programme from courses.json
     local courses=$(get_programme_courses "$prog_code")
@@ -336,7 +344,7 @@ generate_programme_simple() {
                 if [[ "$is_discontinued" == "true" ]]; then
                     old_prefix="**_OLD_** "
                 fi
-                course_entries+="- ${old_prefix}[$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
+                course_entries+="- ${old_prefix}[$course_code - $course_name]($link/$course_code) ($exam_count exams)"$'\n'
             fi
         fi
     done <<< "$courses"
@@ -516,6 +524,7 @@ Manage and validate past-exams repository structure and file naming.
 OPTIONS:
     scan        Scan and validate all files in exams directory
     rebuild     Completely rebuild README.md from scratch
+    web         Completely rebuild README.md from scratch with GitHub permalink prefix for web
     help        Show this help message
 
 EXAMPLES:
@@ -536,6 +545,12 @@ main() {
             exit $?
             ;;
         rebuild)
+            rebuild_readme
+            show_summary
+            exit $?
+            ;;
+        web)
+            WEB_MODE=1
             rebuild_readme
             show_summary
             exit $?
