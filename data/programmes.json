@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/programmes.json",
+  "$schema": "./schemas/programmes.json",
   "N2ADS": {
     "name": "Applied Data Science Master's Programme",
     "language": "en"

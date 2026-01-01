@@ -192,13 +192,13 @@ scan_exams() {
 }
 
 generate_readme_header() {
-    cat ./descriptionCreator/static/header.md
+    cat ./static/header.md
 }
 
 # Function to load course data from JSON
 get_course_data() {
     local course_code="$1"
-    local courses_json="./descriptionCreator/data/courses.json"
+    local courses_json="./data/courses.json"
     
     if [[ ! -f "$courses_json" ]]; then
         echo ""
@@ -212,7 +212,7 @@ get_course_data() {
 # Function to get course name from JSON
 get_course_name_from_json() {
     local course_code="$1"
-    local courses_json="./descriptionCreator/data/courses.json"
+    local courses_json="./data/courses.json"
     
     if [[ ! -f "$courses_json" ]]; then
         get_course_name "./exams/$course_code"
@@ -231,7 +231,7 @@ get_course_name_from_json() {
 # Function to get courses for a programme from courses.json
 get_programme_courses() {
     local prog_code="$1"
-    local courses_json="./descriptionCreator/data/courses.json"
+    local courses_json="./data/courses.json"
     
     jq -r --arg prog "$prog_code" '
         to_entries | 
@@ -246,7 +246,7 @@ generate_programme_with_terms() {
     local prog_code="$1"
     local prog_name="$2"
     local exams_dir="$3"
-    local programme_orders_json="./descriptionCreator/data/programmeOrders.json"
+    local programme_orders_json="./data/programmeOrders.json"
     
     # Collect all course entries first to check if we have any
     local course_entries=""
@@ -275,7 +275,7 @@ generate_programme_with_terms() {
                 # Only collect courses with at least 1 exam
                 if [[ $exam_count -gt 0 ]]; then
                     local course_name=$(get_course_name_from_json "$course_code")
-                    local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./descriptionCreator/data/courses.json" 2>/dev/null)
+                    local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./data/courses.json" 2>/dev/null)
                     local old_prefix=""
                     if [[ "$is_discontinued" == "true" ]]; then
                         old_prefix="**_OLD_** "
@@ -339,7 +339,7 @@ generate_programme_simple() {
             # Only collect courses with at least 1 exam
             if [[ $exam_count -gt 0 ]]; then
                 local course_name=$(get_course_name_from_json "$course_code")
-                local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./descriptionCreator/data/courses.json" 2>/dev/null)
+                local is_discontinued=$(jq -r --arg code "$course_code" '.[$code].discontinued // false' "./data/courses.json" 2>/dev/null)
                 local old_prefix=""
                 if [[ "$is_discontinued" == "true" ]]; then
                     old_prefix="**_OLD_** "
@@ -366,9 +366,9 @@ generate_programme_simple() {
 # Function to generate programme sections for README
 generate_programme_sections() {
     local exams_dir="${1:-./exams}"
-    local programmes_json="./descriptionCreator/data/programmes.json"
-    local programme_orders_json="./descriptionCreator/data/programmeOrders.json"
-    local courses_json="./descriptionCreator/data/courses.json"
+    local programmes_json="./data/programmes.json"
+    local programme_orders_json="./data/programmeOrders.json"
+    local courses_json="./data/courses.json"
     
     # Check if JSON files exist
     if [[ ! -f "$programmes_json" ]] || [[ ! -f "$courses_json" ]]; then

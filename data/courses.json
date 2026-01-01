@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/courses.json",
+  "$schema": "./schemas/courses.json",
   "DIT837": {
     "name": "Bachelor Thesis in Software Engineering and Management",
     "credits": 15,

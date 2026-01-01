@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/programmeOrders.json",
+  "$schema": "./schemas/programmeOrders.json",
   "N1SOF": [
     {
       "name": "Year 1: SP1 & SP2",
