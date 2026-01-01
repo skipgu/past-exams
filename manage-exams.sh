@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# filepath: manage-exams.sh
+# A user-friendly, light-weight script written in Bash that checks the structure
+# of the mono-repo. Run as:
+# $ ./manage-exams.sh help
 
 set -uo pipefail
 
@@ -21,13 +23,6 @@ warning() { echo -e "${YELLOW}⚠ WARNING: $1${NC}"; ((WARNINGS++)); }
 success() { echo -e "${GREEN}✓ $1${NC}"; }
 info() { echo -e "${BLUE}ℹ $1${NC}"; }
 
-# Function to count exams in a course directory
-# An "exam" is defined as one date instance that may contain:
-# - Exam-courseCodes-YYMMDD.pdf
-# - Answer-courseCode-YYMMDD-anonymCode.pdf
-# - Answer-courseCode-YYMMDD-official.pdf
-# - Combined-courseCode-YYMMDD-official.pdf
-# - Combined-courseCode-YYMMDD-anonymCode.pdf
 count_exams() {
     local course_dir="$1"
     local count=0
@@ -71,40 +66,42 @@ validate_filename() {
     # Skip non-PDF files
     [[ "$basename" != *.pdf ]] && return 0
     
-    # Extract date from path (format: YYYY-MM-DD)
-    local date_dir=$(basename "$dirname")
-    if [[ ! "$date_dir" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-        warning "File in invalid date directory: $file (expected YYYY-MM-DD format)"
-        return 1
+    # Extract date from path (format: YYYY-MM-DD), only for non-report files
+    if [[ "$basename" != *"report"* ]] then
+        local date_dir=$(basename "$dirname")
+        if [[ ! "$date_dir" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            warning "File in invalid date directory: $file (expected YYYY-MM-DD format)"
+            return 1
+        fi
     fi
     
-    # Validate filename patterns
+    # - A student (anonymous) code is of the format: `NNN` or `NNN_CCC` where D is
+    # digit and C letter; the course code prefix is removed for simplicify (adds
+    # no information to students; the course code is visible already).
+    # - A course code is of the form CCCNNN or CCCNNN_CCCNNN if there's an
+    # alternative course code name (e.g. DIT045_DAT355).
     case "$basename" in
         Exam-*.pdf)
-            # Format: Exam-courseCode(s)-YYMMDD.pdf
-            if [[ ! "$basename" =~ ^Exam-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}\.pdf$ ]]; then
-                error "Invalid exam filename: $basename (expected Exam-DITXXX-YYMMDD.pdf)"
+            if [[ ! "$basename" =~ ^Exam-(practice-)?[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}\.pdf$ ]]; then
+                error "Invalid exam filename: $basename (expected Exam-(practice-)CourseCode-YYMMDD.pdf)"
                 return 1
             fi
             ;;
         Answer-*.pdf)
-            # Format: Answer-courseCode-YYMMDD-{official|official_partial|anonymCode}.pdf
-            if [[ ! "$basename" =~ ^Answer-[A-Z]{3}[0-9]{3}-[0-9]{6}-(official|official_partial|[A-Z0-9_-]+)\.pdf$ ]]; then
-                error "Invalid answer filename: $basename (expected Answer-DITXXX-YYMMDD-{official|code}.pdf)"
+            if [[ ! "$basename" =~ ^Answer-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}-(official|official_partial|[0-9]{3}|[0-9]{3}_[A-Z]{3})\.pdf$ ]]; then
+                error "Invalid answer filename: $basename (expected Answer-CourseCode-YYMMDD-{official|official_partial|code}.pdf)"
                 return 1
             fi
             ;;
         Combined-*.pdf)
-            # Format: Combined-courseCode-YYMMDD-{official|official_partial|anonymCode}.pdf
-            if [[ ! "$basename" =~ ^Combined-[A-Z]{3}[0-9]{3}-[0-9]{6}-(official|official_partial|[A-Z0-9_-]+)\.pdf$ ]]; then
-                error "Invalid combined filename: $basename (expected Combined-DITXXX-YYMMDD-{official|code}.pdf)"
+            if [[ ! "$basename" =~ ^Combined-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]{6}-(official|official_partial|practice|[0-9]{3}|[0-9]{3}_[A-Z]{3})\.pdf$ ]]; then
+                error "Invalid combined filename: $basename (expected Combined-CourseCode-YYMMDD-{official|official_partial|practice|code}.pdf)"
                 return 1
             fi
             ;;
         final_report-*.pdf)
-            # Format: final_report-courseCode-id-grade.pdf
-            if [[ ! "$basename" =~ ^final_report-[A-Z]{3}[0-9]{3}-[0-9]+-[A-Z]+\.pdf$ ]]; then
-                error "Invalid final report filename: $basename (expected final_report-DITXXX-id-GRADE.pdf)"
+            if [[ ! "$basename" =~ ^final_report-[A-Z]{3}[0-9]{3}(_[A-Z]{3}[0-9]{3})*-[0-9]+-[A-Z]+\.pdf$ ]]; then
+                error "Invalid final report filename: $basename (expected final_report-CourseCode-id-GRADE.pdf)"
                 return 1
             fi
             ;;
@@ -120,6 +117,18 @@ validate_filename() {
 # Function to check if README.md exists in course directory
 check_course_readme() {
     local course_dir="$1"
+
+    # Ensure course_dir starts with ./
+    if [[ ! "$course_dir" =~ ^\. ]]; then
+        course_dir="./$course_dir"
+    fi
+
+    # Skip the test for the submodule DIT182 (corner case)
+    if [[ "$course_dir" == *DIT182* ]]; then
+        info "Skipping README.md check for $course_dir (matched DIT182)"
+        return 0
+    fi
+
     local readme="$course_dir/README.md"
     
     if [[ ! -f "$readme" ]]; then
@@ -180,48 +189,8 @@ scan_exams() {
     return 0
 }
 
-# Function to generate README.md header
 generate_readme_header() {
-    cat <<'EOF'
-<h3 align="center">SKIP – Past Exams Repository</h3>
-<p align="center">
-  <img align="center" src="docs/assets/skip-past-exams-poster.png"/>
-</p><br>
-
-Welcome to the official `GitHub` repository that gathers **examination
-materials** for programmes at the former **IT Faculty** of [Gothenburg
-University](https://www.gu.se/).
-
-### What's Inside
-
-Our repository currently features a sample of past exams, providing insights
-into the types of assessments you can expect during your studies. These
-materials are here to help you prepare effectively, understand the course
-expectations, and excel in your academic journey.
-
-## Interested in a particular course?
-
-We're enabling students to **request** past exams for specific courses. If you
-can't find the exam you're looking for, simply fill in the form below and we'll
-do our best to provide you with the materials you need as soon as possible.
-> $\to$ [**Request Past Exams**](https://forms.gle/DWeioA8dv16oHEsg7)
-
-### Explore and Contribute
-
-We are committed to adding old exams for the current study periods, ensuring
-that you have access to the most up-to-date and relevant assessment materials
-to support your learning.
-
-Feel free to explore, **contribute** (see
-[`CONTRIBUTING.md`](CONTRIBUTING.md)), and make the most of this repository as
-you strive for excellence in your studies. Your feedback and contributions are
-highly encouraged and appreciated!
-
-## Programmes
-
-Click to expand the list of courses for each programme.
-
-EOF
+    cat ./descriptionCreator/static/header.md
 }
 
 # Function to load course data from JSON
@@ -309,7 +278,7 @@ generate_programme_with_terms() {
                     if [[ "$is_discontinued" == "true" ]]; then
                         old_prefix="**_OLD_** "
                     fi
-                    term_courses+="- ${old_prefix}[$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"$'\n'
+                    term_courses+="- ${old_prefix}[$course_code - $course_name](./$course_code) ($exam_count exams)"$'\n'
                 fi
             fi
         done <<< "$courses"
@@ -353,8 +322,6 @@ generate_programme_simple() {
     local course_entries=""
     
     while IFS= read -r course_code; do
-        [[ -z "$course_code" ]] && continue
-        
         local course_dir="$exams_dir/$course_code"
         
         # Check if course directory exists and has exams
@@ -405,7 +372,7 @@ generate_programme_sections() {
     # Track which programmes have been processed
     declare -A processed_programmes
     
-    # First, process programmes that have term ordering (in order of programmeOrders.json)
+    # First, process programmes that have term ordering
     if [[ -f "$programme_orders_json" ]]; then
         local ordered_programme_codes=$(jq -r 'keys[]' "$programme_orders_json" 2>/dev/null)
         
@@ -424,7 +391,6 @@ generate_programme_sections() {
         done <<< "$ordered_programme_codes"
     fi
     
-    # Then, process remaining programmes alphabetically (those without term ordering)
     local all_programme_codes=$(jq -r 'keys | sort[]' "$programmes_json" 2>/dev/null)
     
     while IFS= read -r prog_code; do
@@ -465,7 +431,7 @@ generate_simple_course_list() {
         local course_name=$(get_course_name "$course_dir")
         local exam_count=$(count_exams "$course_dir")
         
-        echo "- [$course_code - $course_name](https://github.com/skipgu/past-exams/tree/main/exams/$course_code) ($exam_count exams)"
+        echo "- [$course_code - $course_name](./$course_code) ($exam_count exams)"
     done
     
     echo ""

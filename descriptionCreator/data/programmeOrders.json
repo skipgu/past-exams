@@ -2,7 +2,7 @@
   "$schema": "../schemas/programmeOrders.json",
   "N1SOF": [
     {
-      "name": "Term 1",
+      "name": "Year 1: SP1 & SP2",
       "courses": [
         "DIT008",
         "DIT009",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "name": "Term 2",
+      "name": "Year 1: SP3 & SP4",
       "courses": [
         "DIT047",
         "DIT033",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "name": "Term 3",
+      "name": "Year 2: SP1 & SP2",
       "courses": [
         "DIT345",
         "DIT357",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "Term 4",
+      "name": "Year 2: SP4 & SP4",
       "courses": [
         "DIT633",
         "DIT636",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Term 5",
+      "name": "Year 3: SP1 & SP2",
       "courses": [
         "DIT038",
         "DIT822",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "Term 6",
+      "name": "Year 3: SP4 & SP4",
       "courses": [
         "DIT836",
         "DIT822",
@@ -61,17 +61,12 @@
   ],
   "TIDAL": [
     {
-      "name": "Year 1 - AUTUMN TERM - Study period 1 (compulsory)",
+      "name": "Year 1: SP1 & SP2 (compulsory)",
       "courses": [
         "CLS050",
         "LEU432",
         "LEU470",
-        "MVE675"
-      ]
-    },
-    {
-      "name": "Year 1 - AUTUMN TERM - Study period 2 (compulsory)",
-      "courses": [
+        "MVE675",
         "CLS050",
         "LEU432",
         "LEU470",
@@ -79,79 +74,54 @@
       ]
     },
     {
-      "name": "Year 1 - SPRING TERM - Study period 3 (compulsory)",
+      "name": "Year 1: SP2 & SP3 (compulsory)",
       "courses": [
         "DAT390",
-        "MVE535"
-      ]
-    },
-    {
-      "name": "Year 1 - SPRING TERM - Study period 4 (compulsory)",
-      "courses": [
+        "MVE535",
         "LET627",
         "LSP581",
         "MVE545"
       ]
     },
     {
-      "name": "Year 2 - AUTUMN TERM - Study period 1 (compulsory)",
+      "name": "Year 2: SP1 & SP2 (compulsory)",
       "courses": [
         "DAT050",
-        "TMV211"
-      ]
-    },
-    {
-      "name": "Year 2 - AUTUMN TERM - Study period 2 (compulsory)",
-      "courses": [
+        "TMV211",
         "LEU237",
         "TDA357"
       ]
     },
     {
-      "name": "Year 2 - SPRING TERM - Study period 3 (compulsory)",
+      "name": "Year 2: SP3 & SP4 (compulsory)",
       "courses": [
-        "DAT055"
-      ]
-    },
-    {
-      "name": "Year 2 - SPRING TERM - Study period 3 (elective)",
-      "courses": [
-        "SSY326"
-      ]
-    },
-    {
-      "name": "Year 2 - SPRING TERM - Study period 4 (compulsory)",
-      "courses": [
+        "DAT055",
+        "SSY326",
         "DAT495",
         "FFR102"
       ]
     },
     {
-      "name": "Year 2 - SPRING TERM - Study period 4 (elective)",
+      "name": "Year 2: SP3 & SP4 (elective)",
       "courses": [
         "SSY326"
       ]
     },
     {
-      "name": "Year 3 - AUTUMN TERM - Study period 1 (compulsory)",
+      "name": "Year 3: SP1 & SP2 (compulsory)",
       "courses": [
         "DAT257"
       ]
     },
     {
-      "name": "Year 3 - SPRING TERM - Study period 3 (compulsory)",
+      "name": "Year 3: SP3 & SP4 (compulsory)",
       "courses": [
-        "LSP127"
-      ]
-    },
-    {
-      "name": "Year 3 - SPRING TERM - Study period 4 (compulsory)",
-      "courses": [
+        "LSP127",
         "LMU450"
       ]
     },
     {
-      "name": "Year 3 - SPRING TERM - Diploma thesis",
+      "name": "Year 3 - Thesis",
       "courses": [
         "EENX20",
         "LMTX38"

@@ -2,8 +2,6 @@
 
 Thank you for your interest in contributing! We welcome your help to continually expand and improve our collection of prior exams for the SEM, as well as other programs from CSE and Applied IT departments. Please read this file before contributing and/or write a SKIP board member.
 
-Note: We recommend studying/observing repository conventions and a few of the more recent commit messages before contributing.
-
 **_Only permitted users (by default SKIP Board Members; exceptions can be granted) can modify/delete/add new scripts/automatizatoins/new features or work on the main branch. All changes and PRs are reviewed by SKIP Board Members._**
 
 Please, follow the set conventions & rules to ensure clear **traceability**.
@@ -16,7 +14,7 @@ Please, follow the set conventions & rules to ensure clear **traceability**.
 
 ## Expected structure of the repository
 
-The following is the expected structure of this **monorepo** that compiles the prior exams at the former IT faculty of Gothenburg University.
+The following is the expected structure of this **monorepo** that compiles prior exams.
 
 ```txt
 .
@@ -24,9 +22,9 @@ The following is the expected structure of this **monorepo** that compiles the p
 │   ├── courseCode                                        # exam course code
 │   │   ├── date                                          # date of the exam (format YYYY-MM-DD, if day is unknown - 99)
 │   │   │   ├── Exam-courseCodes-YYMMDD.pdf               # exams
-│   │   │   ├── Answer-courseCode-YYMMDD-anonymCode.pdf   # student answers - with annonymCode
+│   │   │   ├── Answer-courseCode-YYMMDD-anonymCode.pdf   # (student) answers - with annonymCode or practice (usually from examiner)
 │   │   │   ├── Answer-courseCode-YYMMDD-official.pdf     # teacher answers - code official or official_partial
-│   │   │   ├── Combined-courseCode-YYMMDD-official.pdf   # teacher answers - code official or official_partial
+│   │   │   ├── Combined-courseCode-YYMMDD-official.pdf   # teacher answers - code official, official_partial or practice
 │   │   │   └── Combined-courseCode-YYMMDD-anonymCode.pdf # exams with student answers
 │   │   ├── final_report-courseCode-id-grade              # final reports
 │   │   ├── ...                                           # other exams (NOT COUNTED)
@@ -39,54 +37,90 @@ The following is the expected structure of this **monorepo** that compiles the p
 ```txt
 Exams:
 - Exam-DIT009-241030.pdf
-- Exam-DIT032_DIT033_DAT335-220817.pdf          # A course with multiple courseCodes
 
 Answers:
 - Answer-DIT009-241030-official.pdf             # An official answer by the Examiner/Course Responsible
 - Answer-DIT043-220103-673.pdf                  # An answer with student annonymCode 673
-- Answer-DIT431-231027-DIT431_0007_ADT.pdf      # An answer with full format annonymCode DIT431_0007_ADT
+- Answer-DIT431-231027-0007_ADT.pdf             # An answer with full format annonymCode 0007_ADT
 
 Combined:
-- Combined-DIT633-230316-DIT633-0030-YTW.pdf    # A Combined Exam & Student Answer
+- Combined-DIT633-230316-0030-YTW.pdf           # A Combined Exam & Student Answer
 - Combined-DIT044-250317-official_partial.pdf   # A Combined Exam & partial Answers by the Examiner/Course Responsible
 - Combined-DIT821-211027-official.pdf           # A Combined Exam & Answer by the Examiner/Course Responsible
+- Combined-DIT636-230399-practice.pdf           # A Combined Practice Exam & Answer by the Examiner/Course Responsible
 
 Final Reports:
 - final_report-DIT347-009-VG.pdf                # A student final report with grade VG
 - final_report-DIT347-008-G.pdf                 # A student final report with grade G
 ```
 
+## How to Contribute (in a Nutshell)
+
+**We want to make contributing as easy as possible; just ensure to drop in the files in the right location with the expected filename format**. You can follow this checklist:
+1. **Create an issue** with proper title and if needed, the description.
+2. **Create a new branch** for your changes from the issue (alt. *fork* the repository.)
+3. **Clone the repository** and checkout to your branch.
+4. **Commit your changes**, with proper commit message.
+5. *(optional)* **Run our automatization script** to ensure the data is correctly added, counted and formatted.
+6. **Open a pull request** with a clear title, description & labels.
+7. **Wait for the actions to run** to ensure nothing is broken.
+8. **Wait for an approval & merge**, a member from SKIP team will assist you prior to merging to mainline.
+
 ## What to Update with addition of a new Exam/Course/Programme
 
-After adding a new exam/course/programme, please follow our automatization instructions [here](SCRIPT_USAGE.md).
+We provide a script that verifies that any new file added obeys the expected structure. See [`SCRIPT_USAGE.md`](./SCRIPT_USAGE). You can run the script locally after adding new **examination files** (requires an installation of `jq`, a common JSON processor) or inspect the script when run on your PR (as an action). Either way, only a non-failing PR(s) will be merged.
 
 ### Adding a Course
 
-- Add a README.md file to the Course's folder
-    - A template of the Course's README.md file (Do not forget to fill out the course Code and Name in the README.md):
-
-```txt
-## courseCode - courseName
-Welcome to the courseCode - courseName, where we've compiled past exams and student answers to assist in your preparation for this course.
-
-Here’s what we have so far:
-
-|    Date    | Questions | Answers |   Notes   |
-|------------|-----------|---------|-----------|
-| YYYY-MM-DD | Yes       | Yes     |           |
+If the course doesn't exists in [`courses.json`](./descriptionCreator/data/courses.json), add a new entry in the form, e.g.:
+```json
+"DIT023": {
+  "name": "Mathematical Foundations for Software Engineering",
+  "credits": 7.5,
+  "level": "bachelor",
+  "discontinued": true,
+  "programmes": ["N1SOF"]
+}
 ```
-- If it is a part of a program that is on the repo's [README.md](README.md), add it to the correct place (courses are usually ordered by terms/study periods they are in, in a given programme) and program. Indicate whether it is a course that is not being taught with prefix: `**_OLD_** - `
-    - Example `**_OLD_** - [DIT348 - Software Development Methodologies](https://github.com/skipgu/past-exams/tree/main/exams/DIT348) 10 exams.` 
+> [!NOTE]
+> Courses labeled with `discontinued: true` will be displayed with a prefix `**_OLD_**` in [`README.md`](./README.md). Also see [`programmes.json`](./descriptionCreator/data/programmes.json) with available programme options.
 
-## How to Contribute
+### Specific Study Period
 
-1. **Create an issue** with proper title and if needed, the description.
-2. **Create a new branch** for your changes from the issue.
-3. **Clone the repository** and checkout to your branch.
-4. **Commit your changes**, with proper commit message.
-5. **Run our automatization script** to ensure the data is correctly added, counted and formatted.
-6. **Wait for the actions to run** to ensure nothing is broken.
-7. **Open a pull request** with a clear title, description & labels.
+It is encouraged to provide information about the study period when the course takes place; for this, we have a file [`programmeOrders.json`](./descriptionCreator/data/programmeOrders.json). We typically group courses by a semester (i.e., two consecutive study period) - these will be distinguished from the other courses in [`README.md`](./README.md). For instance:
+```json
+"N1SOF": [
+    {
+      "name": "Year 1: SP1 & SP2",
+      "courses": [
+        "DIT008",
+      ]
+    },
+    {
+      "name": "Year 1: SP3 & SP4",
+      "courses": [
+        "DIT047",
+      ]
+    },
+]
+```
+
+### Adding a Programme
+
+If the programme doesn't exist in [`programmes.json`](./descriptionCreator/data/programmes.json), add a new entry in the form, e.g.:
+```json
+"N1SOF": {
+  "name": "Software Engineering and Management Bachelor's Programme",
+  "language": "en"
+}
+```
+
+> [!IMPORTANT]
+> The file [`README.md`](./README.md) is auto-generated by our script so you don't need to update it manually.
+
+*(the following is non-essential to the expected structure of the monorepo __but__ provides guidelines on how we use `git` workflow; which we expect to be followed when contributing)*
+
+***
 
 ## Issues - Conventions
 
