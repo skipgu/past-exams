@@ -1,0 +1,131 @@
+{
+  "$schema": "./schemas/programmeOrders.json",
+  "N1SOF": [
+    {
+      "name": "Year 1: SP1 & SP2",
+      "courses": [
+        "DIT008",
+        "DIT009",
+        "DIT044",
+        "DIT023",
+        "DIT043",
+        "DIT046"
+      ]
+    },
+    {
+      "name": "Year 1: SP3 & SP4",
+      "courses": [
+        "DIT047",
+        "DIT033",
+        "DIT182",
+        "DIT185",
+        "DIT113"
+      ]
+    },
+    {
+      "name": "Year 2: SP1 & SP2",
+      "courses": [
+        "DIT345",
+        "DIT357",
+        "DIT096",
+        "DIT342",
+        "DIT348",
+        "DIT356"
+      ]
+    },
+    {
+      "name": "Year 2: SP4 & SP4",
+      "courses": [
+        "DIT633",
+        "DIT636",
+        "DIT639"
+      ]
+    },
+    {
+      "name": "Year 3: SP1 & SP2",
+      "courses": [
+        "DIT038",
+        "DIT822",
+        "DIT826",
+        "DIT828"
+      ]
+    },
+    {
+      "name": "Year 3: SP4 & SP4",
+      "courses": [
+        "DIT836",
+        "DIT822",
+        "DIT837"
+      ]
+    }
+  ],
+  "TIDAL": [
+    {
+      "name": "Year 1: SP1 & SP2 (compulsory)",
+      "courses": [
+        "CLS050",
+        "LEU432",
+        "LEU470",
+        "MVE675",
+        "CLS050",
+        "LEU432",
+        "LEU470",
+        "LEU483"
+      ]
+    },
+    {
+      "name": "Year 1: SP2 & SP3 (compulsory)",
+      "courses": [
+        "DAT390",
+        "MVE535",
+        "LET627",
+        "LSP581",
+        "MVE545"
+      ]
+    },
+    {
+      "name": "Year 2: SP1 & SP2 (compulsory)",
+      "courses": [
+        "DAT050",
+        "TMV211",
+        "LEU237",
+        "TDA357"
+      ]
+    },
+    {
+      "name": "Year 2: SP3 & SP4 (compulsory)",
+      "courses": [
+        "DAT055",
+        "SSY326",
+        "DAT495",
+        "FFR102"
+      ]
+    },
+    {
+      "name": "Year 2: SP3 & SP4 (elective)",
+      "courses": [
+        "SSY326"
+      ]
+    },
+    {
+      "name": "Year 3: SP1 & SP2 (compulsory)",
+      "courses": [
+        "DAT257"
+      ]
+    },
+    {
+      "name": "Year 3: SP3 & SP4 (compulsory)",
+      "courses": [
+        "LSP127",
+        "LMU450"
+      ]
+    },
+    {
+      "name": "Year 3 - Thesis",
+      "courses": [
+        "EENX20",
+        "LMTX38"
+      ]
+    }
+  ]
+}

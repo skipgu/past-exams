@@ -4,3 +4,5 @@
 *.log
 package-lock.json
 node_modules
+# The shell script creates a backup README file
+*.backup

@@ -1,5 +1,0 @@
-{
-  "$schema": "./schemas/settings.json",
-  "priorityProgrammes": ["N1SOF", "N2SOF"],
-  "extraCourses": true
-}
