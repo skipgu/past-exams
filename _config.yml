@@ -2,5 +2,4 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
-exclude: ["_site", "exams", "docs", "data", "static", ".github", "scripts",
-         "Gemfile", "Gemfile.lock", "exams.json", "CONTRIBUTING.md", "SCRIPT_USAGE", "manage-exams.sh"] 
+exclude: ["exams", "data", "static", ".github", "scripts", "Gemfile", "Gemfile.lock", "exams.json", "CONTRIBUTING.md", "SCRIPT_USAGE", "manage-exams.sh"] 

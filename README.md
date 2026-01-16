@@ -12,7 +12,7 @@ Our repository currently features a sample of past exams, providing insights int
 ## Interested in a particular course?
 
 We're enabling students to **request** past exams for specific courses. If you can't find the exam you're looking for, simply fill in the form below and we'll do our best to provide you with the materials you need as soon as possible.
-> $\to$ [**Request Past Exams**](https://forms.gle/DWeioA8dv16oHEsg7)
+> → [**Request Past Exams**](https://forms.gle/DWeioA8dv16oHEsg7)
 
 ### Explore and Contribute
 

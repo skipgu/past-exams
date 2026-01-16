@@ -1,35 +1,38 @@
-name: Deploy Jekyll Site to Pages
+name: Deploy Jekyll Site
 
 on:
-  workflow_run:
-    workflows: ["Build Jekyll Site"]
-    types: ["completed"]
-    branches: ["main"]
+  push:
+    branches: [main]
 
 permissions:
+  contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
   deploy:
-    # Run only if the triggering workflow (build) was successful
     if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
     steps:
+      # simulate build
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Download GitHub Pages Artifact
-        uses: actions/download-artifact@v4
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
         with:
-          name: github-pages
-      - name: Deploy to GitHub Pages
-        id: deployment
+          source: .
+          destination: ./_site
+      - name: Upload Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+      - name: Deploy pages
         uses: actions/deploy-pages@v4
