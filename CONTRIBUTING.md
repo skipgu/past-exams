@@ -72,7 +72,7 @@ We provide a script that verifies that any new file added obeys the expected str
 
 ### Adding a Course
 
-If the course doesn't exists in [`courses.json`](./descriptionCreator/data/courses.json), add a new entry in the form, e.g.:
+If the course doesn't exists in [`courses.json`](./data/courses.json), add a new entry in the form, e.g.:
 ```json
 "DIT023": {
   "name": "Mathematical Foundations for Software Engineering",
@@ -83,11 +83,11 @@ If the course doesn't exists in [`courses.json`](./descriptionCreator/data/cours
 }
 ```
 > [!NOTE]
-> Courses labeled with `discontinued: true` will be displayed with a prefix `**_OLD_**` in [`README.md`](./README.md). Also see [`programmes.json`](./descriptionCreator/data/programmes.json) with available programme options.
+> Courses labeled with `discontinued: true` will be displayed with a prefix `**_OLD_**` in [`README.md`](./README.md). Also see [`programmes.json`](./data/programmes.json) with available programme options.
 
 ### Specific Study Period
 
-It is encouraged to provide information about the study period when the course takes place; for this, we have a file [`programmeOrders.json`](./descriptionCreator/data/programmeOrders.json). We typically group courses by a semester (i.e., two consecutive study period) - these will be distinguished from the other courses in [`README.md`](./README.md). For instance:
+It is encouraged to provide information about the study period when the course takes place; for this, we have a file [`programmeOrders.json`](./data/programmeOrders.json). We typically group courses by a semester (i.e., two consecutive study period) - these will be distinguished from the other courses in [`README.md`](./README.md). For instance:
 ```json
 "N1SOF": [
     {
@@ -107,7 +107,7 @@ It is encouraged to provide information about the study period when the course t
 
 ### Adding a Programme
 
-If the programme doesn't exist in [`programmes.json`](./descriptionCreator/data/programmes.json), add a new entry in the form, e.g.:
+If the programme doesn't exist in [`programmes.json`](./data/programmes.json), add a new entry in the form, e.g.:
 ```json
 "N1SOF": {
   "name": "Software Engineering and Management Bachelor's Programme",

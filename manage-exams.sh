@@ -247,6 +247,10 @@ generate_programme_with_terms() {
     local prog_name="$2"
     local exams_dir="$3"
     local programme_orders_json="./data/programmeOrders.json"
+
+    # For web, use permalink prefix to repo; otherwise, use local (file) link
+    local link="./exams"
+    if [[ $WEB_MODE -gt 0 ]]; then link="$REPO_PERMALINK_DOCS"; fi
     
     # Collect all course entries first to check if we have any
     local course_entries=""
@@ -280,7 +284,7 @@ generate_programme_with_terms() {
                     if [[ "$is_discontinued" == "true" ]]; then
                         old_prefix="**_OLD_** "
                     fi
-                    term_courses+="- ${old_prefix}[$course_code - $course_name](./$course_code) ($exam_count exams)"$'\n'
+                    term_courses+="- ${old_prefix}[$course_code - $course_name]($link/$course_code) ($exam_count exams)"$'\n'
                 fi
             fi
         done <<< "$courses"
@@ -315,7 +319,7 @@ generate_programme_simple() {
     local exams_dir="$3"
 
     # For web, use permalink prefix to repo; otherwise, use local (file) link
-    local link="."
+    local link="./exams"
     if [[ $WEB_MODE -gt 0 ]]; then link="$REPO_PERMALINK_DOCS"; fi
     
     # Get courses for this programme from courses.json
@@ -463,6 +467,10 @@ check_jq() {
 rebuild_readme() {
     local exams_dir="${1:-./exams}"
     local readme_file="./README.md"
+
+    # For web, use a different markdown file (so that they don't clash)
+    local readme_file="./exams"
+    if [[ $WEB_MODE -gt 0 ]]; then readme_file="README.web.md"; fi
     
     info "Rebuilding README.md..."
     
