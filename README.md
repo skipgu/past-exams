@@ -29,7 +29,7 @@ Click to expand the list of courses for each programme.
 
 ### Year 1: SP1 & SP2
 
-- [DIT008 - Discrete Mathematics](./exams/DIT008) (4 exams)
+- [DIT008 - Discrete Mathematics](./exams/DIT008) (5 exams)
 - [DIT009 - Fundamentals of Programming](./exams/DIT009) (4 exams)
 - [DIT044 - Object-Oriented Programming](./exams/DIT044) (3 exams)
 - **_OLD_** [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) (9 exams)
@@ -38,7 +38,7 @@ Click to expand the list of courses for each programme.
 
 ### Year 1: SP3 & SP4
 
-- [DIT047 - Requirements Engineering](./exams/DIT047) (1 exams)
+- [DIT047 - Requirements Engineering](./exams/DIT047) (3 exams)
 - [DIT033 - Data Management](./exams/DIT033) (17 exams)
 - [DIT182 - Data Structures and Algorithms](./exams/DIT182) (20+ exams)
 - **_OLD_** [DIT185 - Software Analysis and Design](./exams/DIT185) (9 exams)
