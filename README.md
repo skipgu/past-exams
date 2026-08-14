@@ -110,7 +110,7 @@ Click to expand the list of courses for each programme.
 - **_OLD_** [DIT185 - Software Analysis and Design](./exams/DIT185) (9 exams)
 - **_OLD_** [DIT342 - Web Development](./exams/DIT342) (18 exams)
 - **_OLD_** [DIT348 - Software Development Methodologies](./exams/DIT348) (10 exams)
-- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (2 exams)
+- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (13 exams)
 - [DIT440 - Introduction to Functional Programming](./exams/DIT440) (2 exams)
 - [DIT792 - Grundläggande datorteknik](./exams/DIT792) (1 exams)
 - [DIT962 - Datastrukturer | Data Structures](./exams/DIT962) (2 exams)
@@ -128,7 +128,7 @@ Click to expand the list of courses for each programme.
 - **_OLD_** [DIT046 - Requirements and User Experience](./exams/DIT046) (5 exams)
 - [DIT093 - Algorithms](./exams/DIT093) (1 exams)
 - [DIT182 - Data Structures and Algorithms](./exams/DIT182) (27+ exams)
-- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (2 exams)
+- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (13 exams)
 - [DIT431 - High Performance Parallel Programming](./exams/DIT431) (1 exams)
 - [DIT822 - Software engineering for AI systems](./exams/DIT822) (10 exams)
 - [DIT852 - Introduction to Data Science](./exams/DIT852) (2 exams)
@@ -169,7 +169,7 @@ Click to expand the list of courses for each programme.
 <details>
 <summary><b>&#x1F447; TIELL - Elektroteknik, högskoleingenjör | Electrical Engineering</b></summary>
 
-- [DIT401/EDA093 - Operating systems](./exams/EDA093) (2 exams)
+- [DIT401/EDA093 - Operating systems](./exams/DIT401) (13 exams)
 
 ***
 
