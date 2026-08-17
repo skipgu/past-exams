@@ -97,7 +97,7 @@ Click to expand the list of courses for each programme.
 - [DAT246 - Empirical software engineering](./exams/DAT246) (4 exams)
 - [DAT400 - High-performance parallel programming](./exams/DAT400) (1 exams)
 - [EDA387 - Computer networks](./exams/EDA387) (2 exams)
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (31 exams)
 
 ***
 
@@ -179,7 +179,7 @@ Click to expand the list of courses for each programme.
 <summary><b>&#x1F447; TKDAT - Datateknik, civilingenjör | Computer Science and Engineering</b></summary>
 
 - [EDA452 - Grundläggande datorteknik | Introduction to computer engineering](./exams/EDA452) (1 exams)
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (31 exams)
 - [TDA555 - Introduction to functional programming](./exams/TDA555) (2 exams)
 
 ***
@@ -198,7 +198,7 @@ Click to expand the list of courses for each programme.
 <details>
 <summary><b>&#x1F447; TKITE - Informationsteknik, civilingenjör | Software Engineering</b></summary>
 
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (31 exams)
 - [TDA548 - Grundläggande programvaruutveckling | Introductory software development](./exams/TDA548) (2 exams)
 
 ***
