@@ -5,6 +5,7 @@ Here’s what we have so far:
 
 |    Date    | Questions | Answers |
 |------------|-----------|---------|
+| 2016-12-21 | Yes       | Yes     |
 | 2017-03-18 | Yes       | Yes     |
 | 2017-08-21 | Yes       | Yes     |
 | 2017-10-28 | Yes       | Yes     |
