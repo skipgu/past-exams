@@ -5,9 +5,6 @@ Here’s what we have so far:
 
 |    Date    | Questions | Answers |
 |------------|-----------|---------|
-
-
-
 | 2008-03-12 | Yes       | No      |
 | 2011-03-15 | Yes       | No      |
 | 2011-08-23 | Yes       | No      |
