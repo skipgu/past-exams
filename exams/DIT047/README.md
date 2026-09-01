@@ -6,3 +6,5 @@ Here’s what we have so far:
 |    Date    | Questions | Answers |
 |------------|-----------|---------|
 | 2025-03-18 | Yes       | Yes     |
+| 2025-06-10 | Yes       | Yes     |
+| 2026-03-18 | Yes       | Yes     |

@@ -29,7 +29,7 @@ Click to expand the list of courses for each programme.
 
 ### Year 1: SP1 & SP2
 
-- [DIT008 - Discrete Mathematics](./exams/DIT008) (4 exams)
+- [DIT008 - Discrete Mathematics](./exams/DIT008) (5 exams)
 - [DIT009 - Fundamentals of Programming](./exams/DIT009) (4 exams)
 - [DIT044 - Object-Oriented Programming](./exams/DIT044) (3 exams)
 - **_OLD_** [DIT023 - Mathematical Foundations for Software Engineering](./exams/DIT023) (9 exams)
@@ -38,7 +38,7 @@ Click to expand the list of courses for each programme.
 
 ### Year 1: SP3 & SP4
 
-- [DIT047 - Requirements Engineering](./exams/DIT047) (1 exams)
+- [DIT047 - Requirements Engineering](./exams/DIT047) (3 exams)
 - [DIT033 - Data Management](./exams/DIT033) (17 exams)
 - [DIT182 - Data Structures and Algorithms](./exams/DIT182) (20+ exams)
 - **_OLD_** [DIT185 - Software Analysis and Design](./exams/DIT185) (9 exams)
@@ -97,7 +97,7 @@ Click to expand the list of courses for each programme.
 - [DAT246 - Empirical software engineering](./exams/DAT246) (4 exams)
 - [DAT400 - High-performance parallel programming](./exams/DAT400) (1 exams)
 - [EDA387 - Computer networks](./exams/EDA387) (2 exams)
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (32 exams)
 
 ***
 
@@ -110,7 +110,7 @@ Click to expand the list of courses for each programme.
 - **_OLD_** [DIT185 - Software Analysis and Design](./exams/DIT185) (9 exams)
 - **_OLD_** [DIT342 - Web Development](./exams/DIT342) (18 exams)
 - **_OLD_** [DIT348 - Software Development Methodologies](./exams/DIT348) (10 exams)
-- [DIT401 - Operating Systems](./exams/DIT401) (1 exams)
+- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (33 exams)
 - [DIT440 - Introduction to Functional Programming](./exams/DIT440) (2 exams)
 - [DIT792 - Grundläggande datorteknik](./exams/DIT792) (1 exams)
 - [DIT962 - Datastrukturer | Data Structures](./exams/DIT962) (2 exams)
@@ -128,7 +128,7 @@ Click to expand the list of courses for each programme.
 - **_OLD_** [DIT046 - Requirements and User Experience](./exams/DIT046) (5 exams)
 - [DIT093 - Algorithms](./exams/DIT093) (1 exams)
 - [DIT182 - Data Structures and Algorithms](./exams/DIT182) (27+ exams)
-- [DIT401 - Operating Systems](./exams/DIT401) (1 exams)
+- [DIT401/EDA093 - Operating Systems](./exams/DIT401) (33 exams)
 - [DIT431 - High Performance Parallel Programming](./exams/DIT431) (1 exams)
 - [DIT822 - Software engineering for AI systems](./exams/DIT822) (10 exams)
 - [DIT852 - Introduction to Data Science](./exams/DIT852) (2 exams)
@@ -141,7 +141,7 @@ Click to expand the list of courses for each programme.
 <summary><b>&#x1F447; N2COS - Computer Science Master's Programme</b></summary>
 
 - [DIT093 - Algorithms](./exams/DIT093) (1 exams)
-- [DIT401 - Operating Systems](./exams/DIT401) (1 exams)
+- [DIT401 - Operating Systems](./exams/DIT401) (33 exams)
 - [DIT431 - High Performance Parallel Programming](./exams/DIT431) (1 exams)
 - [DIT670 - Computer Networks](./exams/DIT670) (1 exams)
 
@@ -169,7 +169,7 @@ Click to expand the list of courses for each programme.
 <details>
 <summary><b>&#x1F447; TIELL - Elektroteknik, högskoleingenjör | Electrical Engineering</b></summary>
 
-- [EDA093 - Operating systems](./exams/EDA093) (1 exams)
+- [DIT401/EDA093 - Operating systems](./exams/DIT401) (33 exams)
 
 ***
 
@@ -179,7 +179,7 @@ Click to expand the list of courses for each programme.
 <summary><b>&#x1F447; TKDAT - Datateknik, civilingenjör | Computer Science and Engineering</b></summary>
 
 - [EDA452 - Grundläggande datorteknik | Introduction to computer engineering](./exams/EDA452) (1 exams)
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (32 exams)
 - [TDA555 - Introduction to functional programming](./exams/TDA555) (2 exams)
 
 ***
@@ -198,7 +198,7 @@ Click to expand the list of courses for each programme.
 <details>
 <summary><b>&#x1F447; TKITE - Informationsteknik, civilingenjör | Software Engineering</b></summary>
 
-- [TDA384 - Principles of Concurrent Programming](./exams/TDA384) (2 exams)
+- [DIT392/TDA384 - Principles of Concurrent Programming](./exams/DIT392) (32 exams)
 - [TDA548 - Grundläggande programvaruutveckling | Introductory software development](./exams/TDA548) (2 exams)
 
 ***

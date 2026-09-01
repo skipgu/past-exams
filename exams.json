@@ -13,7 +13,7 @@
               "courseName": "Discrete Mathematics",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 4,
+              "courseExamCount": 5,
               "courseDirectory": "./exams/DIT008"
             },
             {
@@ -66,7 +66,7 @@
               "courseName": "Requirements Engineering",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
+              "courseExamCount": 3,
               "courseDirectory": "exams/DIT047"
             },
             {
@@ -254,12 +254,12 @@
           "termName": "",
           "courses": [
             {
-              "courseCode": "TDA384",
+              "courseCode": "DIT392",
               "courseName": "Principles of Concurrent Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
-              "courseDirectory": "exams/TDA384"
+              "courseExamCount": 32,
+              "courseDirectory": "exams/DIT392"
             },
             {
               "courseCode": "EDA387",
@@ -334,7 +334,7 @@
               "courseName": "Operating Systems",
               "courseCredit": 7.5,
               "courseLevel": "master",
-              "courseExamCount": 1,
+              "courseExamCount": 33,
               "courseDirectory": "exams/DIT401"
             },
             {
@@ -418,7 +418,7 @@
               "courseName": "Operating Systems",
               "courseCredit": 7.5,
               "courseLevel": "master",
-              "courseExamCount": 1,
+              "courseExamCount": 33,
               "courseDirectory": "exams/DIT401"
             },
             {
@@ -478,7 +478,7 @@
               "courseName": "Operating Systems",
               "courseCredit": 7.5,
               "courseLevel": "master",
-              "courseExamCount": 1,
+              "courseExamCount": 33,
               "courseDirectory": "exams/DIT401"
             },
             {
@@ -535,8 +535,8 @@
               "courseName": "Principles of Concurrent Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
-              "courseDirectory": "exams/TDA384"
+              "courseExamCount": 32,
+              "courseDirectory": "exams/DIT393"
             },
             {
               "courseCode": "EDA387",
@@ -551,8 +551,8 @@
               "courseName": "Operating systems",
               "courseCredit": 4.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
-              "courseDirectory": "exams/EDA093"
+              "courseExamCount": 33,
+              "courseDirectory": "exams/DIT401"
             }
           ]
         }
@@ -571,8 +571,8 @@
               "courseName": "Operating systems",
               "courseCredit": 4.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 1,
-              "courseDirectory": "exams/EDA093"
+              "courseExamCount": 33,
+              "courseDirectory": "exams/DIT401"
             }
           ]
         }
@@ -599,8 +599,8 @@
               "courseName": "Principles of Concurrent Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
-              "courseDirectory": "exams/TDA384"
+              "courseExamCount": 32,
+              "courseDirectory": "exams/DIT393"
             },
             {
               "courseCode": "EDA452",
@@ -655,8 +655,8 @@
               "courseName": "Principles of Concurrent Programming",
               "courseCredit": 7.5,
               "courseLevel": "bachelor",
-              "courseExamCount": 2,
-              "courseDirectory": "exams/TDA384"
+              "courseExamCount": 32,
+              "courseDirectory": "exams/DIT393"
             }
           ]
         }
