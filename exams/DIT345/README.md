@@ -16,3 +16,4 @@ Here’s what we have so far:
 | 2024-11-01 | Yes       | Yes     |              |
 | 2025-01-09 | Yes       | No      |              |
 | 2025-08-19 | Yes       | No      |              |
+| 2025-10-27 | Yes       | Yes     |              |

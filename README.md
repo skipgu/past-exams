@@ -46,7 +46,7 @@ Click to expand the list of courses for each programme.
 ### Year 2: SP1 & SP2
 
 - [DIT357 - Distributed Systems](./exams/DIT357) (1 exams)
-- [DIT345 - Fundamentals of Software Architecture](./exams/DIT345) (11 exams)
+- [DIT345 - Fundamentals of Software Architecture](./exams/DIT345) (12 exams)
 - [DIT096 - Human-Computer Interaction](./exams/DIT096) (3 exams)
 - **_OLD_** [DIT342 - Web Development](./exams/DIT342) (18 exams)
 - **_OLD_** [DIT348 - Software Development Methodologies](./exams/DIT348) (10 exams)
